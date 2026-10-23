@@ -1,49 +1,71 @@
 # KURALIVO
 
-**Pilihan yang tepat. Lebih sedikit menebak.**
+**AI-made content. Human-checked claims. Better product discovery.**
 
-KURALIVO adalah jaringan afiliasi dan kreator dalam ekosistem HOLBERY. Fokusnya membantu afiliator menemukan kampanye yang sesuai, memahami aturan dan komisi sebelum promosi, menggunakan materi yang disetujui, serta membaca hasil dari sumber yang benar-benar tersedia.
+KURALIVO is an **AI-first affiliate content engine** designed to help turn verified product information into useful short-form marketing content, starting with physical products and expanding to digital products. The first operating mode is faceless-first: AI helps research, script, storyboard, generate permitted visuals/voice, repurpose, and evaluate content. Human review remains mandatory for product facts, rights, platform rules, affiliate eligibility, and publication.
 
-## Arsitektur ekosistem
+## Ecosystem architecture
 
-- **HOLBERY — Parent & Product Factory:** membangun, memiliki, menguji, dan mengelola produk serta sistem.
-- **AMARIFA — Discovery, Marketplace Direction & Promotion:** membantu pelanggan menemukan produk dan membantu brand/seller menyajikan penawaran serta kampanye.
-- **KURALIVO — Affiliate & Creator Network:** menghubungkan kampanye yang disetujui dengan afiliator/kreator, materi promosi, tautan resmi, dan pelaporan yang dapat diverifikasi.
+- **HOLBERY — Parent & Product Factory:** builds and manages digital products, systems, and product standards.
+- **AMARIFA — Digital Discovery & Promotion Direction:** helps people discover relevant digital solutions and supports product discovery/promotion.
+- **KURALIVO — AI Affiliate Content Engine:** connects physical-first affiliate offers and later digital offers with AI-assisted content production, campaign rules, official affiliate links, and evidence-based learning.
 
-Alur target: HOLBERY membangun atau memilih produk → AMARIFA membuat penawaran mudah ditemukan → KURALIVO mengaktifkan afiliator → pembeli melakukan checkout melalui kanal merchant/platform yang berwenang → hasil yang tersedia dipelajari kembali.
+Target flow: verify an eligible product → research buyer problem and product evidence → generate content concepts/assets → review claims, rights, and platform compliance → publish only on approved channels → use official affiliate links when eligible → measure available outcomes → improve the next creative.
 
-AMARIFA adalah arah konsep yang perlu diverifikasi dari sisi nama, domain, dan merek dagang sebelum peluncuran publik.
+AMARIFA is a proposed ecosystem direction; verify name/domain/trademark availability before public launch.
 
-## Positioning KURALIVO
+## Positioning
 
-KURALIVO bukan janji penghasilan dan bukan marketplace checkout pada versi awal. Ia dimulai sebagai **jaringan kampanye afiliasi yang dikurasi dan dibantu secara operasional**. Produk bisa berasal dari HOLBERY maupun pihak ketiga yang lolos verifikasi.
+**From product to content. From content to a measurable sales opportunity.**
 
-## Prinsip
+KURALIVO is not initially a custom checkout, affiliate payout wallet, or open marketplace. It begins as an AI-assisted content operation and manual affiliate pilot. Start with physical products available through legitimate affiliate programs; add digital products when an authorized affiliate program or a clearly defined owned-product arrangement exists.
 
-1. Kecocokan produk dan audiens lebih penting daripada komisi tertinggi.
-2. Jelaskan syarat komisi, kelayakan, sumber tracking, pembatalan, dan pihak yang membayar sebelum promosi.
-3. Ungkapkan hubungan afiliasi/sponsor dengan jelas.
-4. Bedakan klik, pesanan, konversi terkonfirmasi, komisi yang dilaporkan, dan pembayaran yang benar-benar selesai.
-5. Jangan mengarang ulasan, pengalaman langsung, harga, stok, penjualan, atau pendapatan afiliator.
-6. Jangan memegang dana pembeli atau menjanjikan payout otomatis pada MVP.
-7. Mulai manual, ukur hasil nyata, baru otomatisasi proses yang terbukti berulang.
+## Core product principles
 
-## Dokumen utama
+1. AI-first and faceless-first, not AI-only-at-any-cost. Use the most practical generation workflow, but do not publish unchecked output.
+2. No invented hands-on experience, testimonials, product features, prices, discounts, stock, sales, commissions, or earnings.
+3. Use only authorized product images, clips, logos, product feeds, or AI-generated visuals that do not misrepresent the actual item.
+4. Label synthetic or altered media when platform rules or local law require it; never use a fake person to imply a real customer endorsement.
+5. Use official affiliate links and follow each program's current eligibility, content, disclosure, and attribution rules. Do not assume every platform allows a zero-follower account to use every affiliate feature.
+6. Separate views, reach, clicks, reported orders, confirmed conversions, reported commission, and completed payouts.
+7. Start with a small test portfolio and no paid ads. Scale only when actual evidence supports it.
+8. Do not scrape private communities, bypass platform restrictions, spam comments/DMs, or repost other creators' work without permission.
+9. Protect credentials, personal data, and API keys; never put secrets in frontend code or this repository.
+10. Bozq One System remains private and separate from this ecosystem.
 
-- [Ecosystem Charter](docs/ecosystem-charter.md) — peran dan batas HOLBERY, AMARIFA, KURALIVO.
-- [Mission, Vision & Brand Roles](docs/mission-vision-and-brand-roles.md) — misi, visi, nilai, positioning, suara merek.
-- [Market Research & Validation](docs/market-research-and-validation.md) — sinyal pasar, alternatif, hipotesis, eksperimen 14 hari.
-- [PRD 0.1](docs/prd-0.1.md) — kebutuhan produk, scope MVP, data model, acceptance criteria.
-- [UX/UI & User Journeys](docs/ux-ui-and-user-journeys.md) — sitemap, wireframe teks, journey, state dan visual direction.
-- [Affiliate Campaign Operations](docs/affiliate-campaign-operations.md) — alur kampanye, pemeriksaan merchant, pelaporan, penanganan insiden.
-- [Genspark / AI Build Brief](docs/genspark-build-brief.md) — brief implementasi yang bisa diberikan ke Genspark atau AI coding.
-- [Roadmap & Metrics](docs/roadmap-and-metrics.md) — fase, metrik, dan gerbang keputusan.
-- [Brand Strategy](docs/brand-strategy.md) — kurasi, konten, dan strategi go-to-market.
+## Initial AI content workflow
 
-## Status aktual
+1. **Product Gate:** verify merchant, product, audience, official program, eligibility, commission basis, permitted channels, and destination.
+2. **Evidence Pack:** collect reliable product facts, approved claims, limitations, current price/source/date if relevant, and rights-cleared assets.
+3. **Creative Brief:** define one audience problem, one content angle, hook, proof, CTA, format, and intended platform.
+4. **Generate:** produce scripts, storyboard, captions, visual prompts, voice-over, and edits using available tools.
+5. **Quality Gate:** review factual accuracy, visual fidelity, rights, disclosure, synthetic-media policy, and platform rules.
+6. **Publish & Learn:** publish only when the account/program is eligible; record post URL, format, date, source metrics, clicks, and verified results.
+7. **Iterate:** make variations from observed performance, not fabricated success claims.
 
-Dokumen strategi dan PRD telah ditambahkan ke repository. Ini **belum** berarti domain kuralivo.biz.id sudah terhubung, situs sudah ter-deploy, affiliate account sudah aktif, atau kampanye sudah tersedia. Jangan mengiklankan kampanye sampai merchant, destination, syarat, tracking, dan komisinya terverifikasi.
+## MVP scope
 
-## Domain rencana
+- Manual product and campaign research.
+- Content brief and generation prompt library.
+- Faceless short-video workflow.
+- Human approval checklist.
+- Official affiliate link registry.
+- Content and results tracker.
+- Digital-product support as a second category.
+- No custom checkout, wallet, payout processing, autonomous posting, or unverified conversion attribution.
+
+## Repository guide
+
+- [Brand strategy](docs/brand-strategy.md)
+- [AI Content Engine & operating model](docs/ai-content-engine.md)
+- [Content workflow and prompt library](docs/content-workflow-and-prompts.md)
+- [PRD 0.1](docs/prd-0.1.md)
+- [Roadmap & metrics](docs/roadmap-and-metrics.md)
+
+## Current status
+
+This repository contains strategy and prototype website code. It does **not** mean the domain is connected, a site is deployed, an affiliate account is eligible/approved, products or campaigns are verified, or AI publishing automation is live. Verify every program and campaign before promoting.
+
+## Domain plan
 
 https://kuralivo.biz.id
