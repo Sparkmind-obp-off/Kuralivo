@@ -1,132 +1,118 @@
-# KURALIVO Product Requirements Document — 0.1 (AI-First Content Engine)
+# KURALIVO PRD 0.1 — AI-Powered Affiliate Content Brand
 
-**Status:** Validation draft. Not a production commitment.
-**Product:** AI-first affiliate content engine, physical-first and digital-enabled.
+**Status:** Validation draft. The first release is a manual content operation, not a software platform.
 
-## 1. Product summary
+## 1. Product definition
 
-KURALIVO helps an operator turn verified product information into faceless-first marketing content and evaluate real distribution outcomes. AI assists with research synthesis, creative planning, scripts, storyboards, visual prompts, captions, and analysis. Human review is required before publication.
+KURALIVO is a TikTok-first content brand that promotes third-party products through eligible affiliate programs. AI is used throughout creative production, with faceless-first formats. The initial focus is physical products. Digital products may be added when there is a legitimate affiliate program or clear owned-product arrangement.
 
-The first release is an operating playbook and manual tracker, not an autonomous publishing platform, custom checkout, payout wallet, or proprietary attribution network.
+The future AI Content Engine is an optional evolution of the internal workflow, not the first customer-facing product.
 
-## 2. Problem hypotheses
+## 2. Objective
 
-- Product promotion takes too much time when each creative starts from scratch.
-- New affiliates may lack a repeatable content workflow and may not know which product facts and rules are safe to use.
-- AI can reduce production effort, but unreviewed AI content may create inaccurate claims, rights issues, synthetic-media concerns, or repetitive low-quality posts.
-- A small, evidence-led content loop may help identify product/creative fit before building software.
+Establish whether KURALIVO can consistently produce useful, compliant original content, earn distribution, drive measurable product interest, and eventually generate verified affiliate commissions—without premature software spend.
 
-These hypotheses must be tested; they are not established market facts.
+## 3. Users and roles
 
-## 3. Users
+- Operator/editor: verifies products and terms, generates creative, approves and publishes, tracks outcomes.
+- Viewer/buyer: discovers a product and evaluates whether it suits their needs.
+- Affiliate partner/merchant: supplies official product facts, terms, approved assets, link and reporting.
+- Future creator: may use a proven workflow if a real need is validated.
 
-- Initial operator: researches offers, generates and reviews content, publishes manually, records outcomes.
-- Future affiliate/creator: uses briefs, templates, authorized links, and content tools.
-- Future merchant/product owner: supplies product facts, usage rights, campaign terms, and performance source.
+## 4. MVP scope
 
-## 4. MVP outcomes
+### P0 — required
+- Check TikTok account status and current in-app affiliate eligibility.
+- Choose one micro-category and shortlist a small number of products.
+- Product/merchant verification record.
+- Evidence pack with sources, dates, claims and limitations.
+- AI prompt library for hooks, scripts, storyboards, visuals, voice-over and captions.
+- Human quality gate for final rendered content.
+- Manual publishing calendar and post log.
+- Official affiliate link and program-term register.
+- Results sheet using platform/partner source data.
+- Weekly review and next-test decision.
 
-1. Verify at least one product and its official affiliate pathway before monetized promotion.
-2. Generate a small batch of original creative concepts from a sourced evidence pack.
-3. Review every asset for facts, rights, disclosure, visual fidelity, and platform rules.
-4. Publish manually only if account and program eligibility permit it.
-5. Record metrics from named sources and learn which formats deserve another test.
-6. Keep production and validation costs as close to zero as practical.
-
-## 5. Non-goals
-
-- Guaranteed sales or earnings.
-- Unsupervised AI publication or mass posting.
-- Fake testimonials, synthetic customer endorsements, fabricated hands-on experience, or invented product results.
-- Scraping private communities, spam DMs/comments, fake engagement, or bypassing platform restrictions.
-- Custom checkout, inventory, shipping, wallet, payout processing, or commission attribution.
-- Automated access to accounts without official authorization.
-- Paid ads, paid tooling, or inventory purchase without explicit owner approval.
-- Treating AI-generated images as proof that the real product looks or performs a certain way.
-
-## 6. Workflow requirements
-
-### P0 — required for manual pilot
-- Product intake record: product, merchant, official URL, category, eligibility, permitted channels, source date, rights notes.
-- Evidence pack: sourced facts, limitations, approved/prohibited claims, source URLs, review date.
-- Creative brief: audience hypothesis, intent, hook, angle, proof, format, CTA, disclosure.
-- AI generation templates for scripts, storyboards, image/video prompts, captions, and variants.
-- Human review checklist before publication.
-- Asset log with origin, license/permission, generation tool, and any synthetic-media disclosure decision.
-- Official affiliate link register with program terms and eligibility evidence.
-- Manual content calendar and publication log.
-- Results tracker distinguishing views/reach, clicks, reported orders, confirmed conversions, reported commission, and completed payout.
-- Incident log for inaccurate claims, rights complaints, broken links, takedowns, and corrections.
-
-### P1 — only after repeated use
-- Structured content brief editor.
-- Versioned prompt library and reusable creative templates.
-- Batch generation assistance with per-asset review states.
-- Campaign/product catalog.
-- CSV import/export of authorized partner reports.
-- Simple performance dashboard based only on source-provided metrics.
-- Creator application and approval workflow.
+### P1 — after initial evidence
+- Reusable product briefs and creative templates.
+- Versioned prompts and asset library.
+- Batch drafting with per-asset approval.
+- Light dashboard for content and verified performance data.
+- Add digital product campaigns if valid offers and terms exist.
 
 ### P2 — only if justified
-- Authorized platform/affiliate integrations.
-- AI-assisted product matching.
-- Multi-user workspace and role permissions.
-- Scheduled publishing only through official supported integrations and after explicit approval.
-- Partner report reconciliation and audit trail.
+- Creator workspace or campaign directory.
+- Authorized analytics/affiliate integrations.
+- Multi-user permissions and audit history.
+- Scheduled publishing through official supported integrations with explicit approval.
 
-## 7. Content quality gate
+## 5. Non-goals for MVP
 
-Every creative must pass:
-1. **Fact check:** each product claim is supported by an identified source.
-2. **Visual fidelity:** generated imagery does not misrepresent the real item, packaging, size, use, or outcome.
-3. **Experience honesty:** no fabricated first-person use, review, unboxing, or testimonial.
-4. **Rights:** product assets, music, likeness, logos, fonts, and clips have a permitted use basis.
-5. **Disclosure:** affiliate/sponsored relationship is clear where required.
-6. **Platform rules:** eligibility, AI/synthetic-media labeling, link placement, branded content, and content policies checked for the target account and channel.
-7. **CTA and link:** destination works and matches the described product.
-8. **Human approval:** named operator approves before publishing.
+- Building a public AI SaaS or affiliate marketplace immediately.
+- Custom checkout, wallet, payouts, inventory, or commission attribution.
+- Guaranteed earnings or sales.
+- Paid ads, inventory purchase, paid creator seeding, or paid subscriptions without explicit approval.
+- Unsupervised mass generation and posting.
+- Fake testimonials, fabricated firsthand experience, misleading product visuals or invented claims.
+- Scraping private communities, spam, fake engagement, or platform circumvention.
 
-## 8. Suggested data records
+## 6. Required workflow
 
-- Product: id, name, merchant, official_url, category, status, source_pack, claim_risk, rights_notes, last_verified_at.
-- AffiliateProgram: product_id, platform, eligibility_evidence, allowed_channels, link, commission_terms, attribution_source, payout_owner, cancellation_rules, verified_at.
-- CreativeBrief: id, product_id, audience_hypothesis, angle, hook, format, CTA, disclosure_plan, status.
-- Asset: id, brief_id, asset_type, source_or_generation_method, prompt_version, rights_status, review_status, reviewer, approved_at.
-- Post: asset_id, platform, account, published_url, published_at, disclosure_check, status.
-- MetricSnapshot: post_id, period, metric_name, value, source, captured_at.
-- Incident: asset_id, type, severity, resolution, date.
-- AuditEvent: actor, action, entity, timestamp, change summary.
+1. Verify account eligibility and affiliate pathway.
+2. Verify product, seller, permitted channel, terms and assets.
+3. Create an evidence pack.
+4. Generate creative options with AI.
+5. Review facts, product depiction, rights, disclosures and platform rules.
+6. Approve the final rendered video.
+7. Publish manually only when permitted.
+8. Record post URL, date, format, reach, watch metrics, clicks, and partner-reported orders/commission when available.
+9. Review results weekly and choose one controlled experiment.
 
-Avoid collecting personal data that is not needed. Do not store passwords, session cookies, OTPs, or API secrets in content records or Git.
+## 7. Content acceptance criteria
 
-## 9. Success metrics
+- Claims are sourced; uncertainty is explicit.
+- Product appearance and features match reliable product information.
+- No fabricated use, review, testimonial, result, price, discount, or scarcity.
+- Rights for images, footage, music, voice, logo, fonts, and likenesses are addressed.
+- Required AI and affiliate disclosures are present.
+- Target account and program permit the format and link placement.
+- CTA and destination are accurate.
+- Human approval of final render is recorded.
+- Performance claims reference a named source and time period.
 
-- Time from verified product brief to approved creative.
+## 8. Metrics
+
+- Eligibility status and verified offers.
+- Time to generate and approve a creative.
 - First-review pass rate and correction rate.
-- Number of original approved/published creatives.
-- Reach and watch/retention metrics where the platform provides them.
-- Outbound clicks from a named source.
-- Confirmed conversions and reported commission from authorized partner data.
-- Broken links, complaints, policy strikes, corrections, and takedowns.
-- Cost per approved creative and repeatable format rate.
+- Posts published, reach/views and watch metrics when available.
+- Outbound clicks where measurable.
+- Partner-reported orders, confirmed conversions, commission status.
+- Cost/time per approved creative.
+- Broken links, complaints, takedowns, policy incidents.
 
-AI asset count and raw views are not proof of revenue.
+Views, likes, followers, and AI asset volume are not proof of sales.
 
-## 10. Acceptance criteria
+## 9. Risks
 
-- Product facts and affiliate eligibility are sourced and dated.
-- No monetized promotion begins before program terms and account eligibility are verified.
-- Every published asset has a recorded human approval.
-- Affiliate disclosure and link destination are checked.
-- Every performance number names its source and period.
-- Unverified conversion, commission, or payout claims are not displayed.
-- A pilot closeout records evidence, uncertainty, costs, and next experiment.
+- Account is not yet eligible for product links.
+- AI visuals inaccurately depict the real product.
+- Copyright, music, likeness, or merchant asset permission problems.
+- Policy changes or missing AI/affiliate disclosure.
+- Low reach, low buyer intent, low conversion, cancellations or returns.
+- Unreliable product/merchant or insufficient commission economics.
 
-## 11. Open decisions
+Mitigation: verify first, publish manually, use a small test set, document sources, review policy regularly, and avoid spend until evidence supports it.
 
-- First product micro-category.
-- Initial platform and affiliate eligibility path.
-- Approved AI image/video/voice tools available at zero cost.
-- Whether product assets can be licensed or must be generated from text/owned assets.
-- Hosting and content storage.
-- Which metrics can actually be accessed without paid APIs.
+## 10. Open questions to resolve during execution
+
+- Exact in-app eligibility shown for the user's TikTok account.
+- First micro-category and verified product shortlist.
+- Available free AI image/video/voice tools.
+- Allowed source assets and use permissions.
+- What platform/affiliate performance data is accessible.
+- Whether the internal workflow shows enough repeated value to justify software.
+
+## 11. Status disclaimer
+
+This PRD does not indicate that TikTok affiliate access is approved, links are live, the domain is connected, automation exists, or revenue has occurred.
