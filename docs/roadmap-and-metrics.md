@@ -8,14 +8,13 @@
 
 **Exit gate:** one valid, usable affiliate pathway—or a clearly recorded blocker. Do not claim links/commissions are active without confirmation.
 
-## Phase 1 — KURALIVO content brand
-- Establish a clear content identity and repeatable faceless-first formats.
-- Generate scripts, storyboards, visual assets, captions and voice-over drafts with AI.
+## Phase 1 — KURALIVO internal engine
+- Establish a repeatable workflow for product research, evidence packs, scripts, storyboards, visual assets, captions, and voice-over drafts.
 - Human-review every final rendered asset.
-- Publish manually only when account/program eligibility permits.
+- Deliver approved assets to the separate public affiliate account once its name is chosen and setup is complete.
 - Keep costs near zero: no paid ads, inventory, or new subscriptions without explicit approval.
 
-**Exit gate:** a documented batch of original content, quality-review results, and real source metrics.
+**Exit gate:** a documented workflow, a batch of approved original content, and real source metrics from the separate publishing account.
 
 ## Phase 2 — content and affiliate validation
 - Test a small number of products and distinct creative angles.
@@ -25,8 +24,8 @@
 
 **Exit gate:** evidence-supported content/product patterns. A specific number of views or sales is not guaranteed.
 
-## Phase 3 — internal AI Content Engine
-Only after repeated manual steps:
+## Phase 3 — engine improvement
+KURALIVO is already the internal engine. Improve it only after repeated use shows bottlenecks:
 - product evidence pack;
 - prompt library and versioned creative templates;
 - batch drafting with human approval;
@@ -41,7 +40,7 @@ Only after repeated manual steps:
 - Invite a small creator pilot only after the process works and terms are transparent.
 
 ## Phase 5 — optional creator-facing platform
-Build a KURALIVO workspace, campaign directory or creator tool only if creators show repeated need and the value proposition is validated. Use authorized integrations and explicit approvals. No autonomous posting by default.
+Build a public KURALIVO workspace or creator tool only if creators show repeated need and the value proposition is validated. Use authorized integrations and explicit approvals. No autonomous posting by default.
 
 ## Core metrics
 - Account eligibility and verified affiliate offers.
