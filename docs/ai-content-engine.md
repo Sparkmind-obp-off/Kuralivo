@@ -2,11 +2,11 @@
 
 ## Purpose
 
-The engine is initially an internal workflow used by the KURALIVO content brand. It is not a separate public SaaS launch. Its job is to reduce the time and effort needed to produce accurate, original, faceless-first affiliate content and learn from real distribution outcomes.
+KURALIVO is an internal workflow and content-production engine. It is separate from the public affiliate account, which will have a new name chosen later. Its job is to reduce the time and effort needed to produce accurate, original, faceless-first marketing content and learn from real distribution outcomes.
 
 ## Operating loop
 
-Verified product → evidence pack → creative brief → AI generation → human review → manual publish → official affiliate link (when eligible) → source-based measurement → iterate.
+Verified brief/product → evidence pack → creative brief → AI generation → human review → deliver approved assets to the separate publishing account → official affiliate link (when eligible) → source-based measurement → iterate.
 
 ## Modules
 
