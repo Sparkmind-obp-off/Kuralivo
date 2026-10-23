@@ -1,121 +1,98 @@
-# KURALIVO PRD 0.1 — Internal AI Content Engine
+# KURALIVO PRD 1.0 — Internal AI Content Engine
 
-**Status:** Validation draft. The first release is a manual content operation, not a software platform.
+**Status:** Proposed baseline; implementation status must be verified separately.  
+**Owner:** HOLBERY  
+**Primary operator:** one person initially  
+**Public affiliate account:** separate account, naming TBD
 
-## 1. Product definition
+## 1. Problem
+Producing consistent short-form marketing content involves scattered research, scripts, visual prompts, captions, review checks, publishing notes, and results. Without a repeatable workflow, the operator repeatedly starts from zero and risks unsupported product claims or missing disclosures.
 
-KURALIVO is an internal AI Content Engine for planning, generating, reviewing, and learning from marketing content. It does not own or represent the public affiliate account. A separate account name will be chosen later; it will publish approved content and promote products only through eligible, official affiliate paths.
+## 2. Goal
+Create a lightweight, repeatable workflow that turns a verified brief into a reviewed content package and records what happened after publication.
 
-The initial release is a lightweight, manual workflow—not a public SaaS or marketplace.
+## 3. Primary user
+A solo operator producing faceless-first marketing content for an affiliate account or other legitimate campaign. The operator chooses what to publish and remains accountable for final accuracy, rights, and platform compliance.
 
-## 2. Objective
+## 4. User jobs
+- Organize a product/campaign and target audience.
+- Record facts, sources, limitations, and asset permissions.
+- Create several content angles and select one.
+- Generate hooks, scripts, storyboard, shot list, voice-over draft, captions, and CTA.
+- Review factual claims, visual fidelity, rights, and disclosures.
+- Export assets and publish manually on a permitted channel.
+- Record source metrics and decide the next test.
 
-Establish whether KURALIVO can consistently produce useful, compliant original content, earn distribution, drive measurable product interest, and eventually generate verified affiliate commissions—without premature software spend.
+## 5. MVP functional requirements
 
-## 3. Users and roles
+### P0 — essential
+- FR-01: Create, edit, archive a campaign/project.
+- FR-02: Store audience, problem, channel, language, objective, CTA, and constraints.
+- FR-03: Add source URLs, dates checked, extracted facts, limitations, and confidence.
+- FR-04: Generate creative briefs and drafts from supplied context; do not imply web verification unless it occurred.
+- FR-05: Generate variants for hooks, script, caption, storyboard, shot list, and visual directions.
+- FR-06: Show source/context next to claims where practical.
+- FR-07: Provide a review checklist for facts, product depiction, asset rights, AI disclosure, affiliate disclosure, and platform rules.
+- FR-08: Support statuses: Idea, Researching, Draft, In Review, Needs Changes, Approved, Published, Archived.
+- FR-09: Require explicit human approval before a draft is marked Approved.
+- FR-10: Export a content package as Markdown/text/CSV or downloadable bundle when implemented.
+- FR-11: Record post URL, platform, publication date, format, and source-reported metrics.
+- FR-12: Distinguish observed values from estimates/hypotheses and preserve metric source/date.
+- FR-13: Keep secrets out of prompt history, content records, and Git.
+- FR-14: Display clear empty, loading, error, and success states in any UI.
 
-- Operator/editor: verifies products and terms, generates creative, approves and publishes, tracks outcomes.
-- Publisher/operator of the separate affiliate account: uses approved KURALIVO outputs to publish and test content.
-- Viewer/buyer: discovers a product and evaluates whether it suits their needs.
-- Affiliate partner/merchant: supplies official product facts, terms, approved assets, link and reporting.
-- Future creator: may use a proven workflow if a real need is validated.
+### P1 — after MVP evidence
+- Reusable templates and prompt versions.
+- Batch drafting with independent review for every asset.
+- Content calendar and asset library.
+- Basic charts based only on recorded source metrics.
+- Optional approved integrations after API access and policy review.
 
-## 4. MVP scope
+### P2 — conditional
+- Multi-user workspaces and role permissions.
+- Public creator workspace or SaaS.
+- Billing/subscriptions and campaign directory.
+- Official scheduled publishing integrations.
 
-### P0 — required
-- Create reusable content-production workflow and quality gate.
-- Choose a distinct name and set up the separate affiliate account; check its status and current in-app affiliate eligibility.
-- Choose one micro-category and shortlist a small number of products.
-- Product/merchant verification record.
-- Evidence pack with sources, dates, claims and limitations.
-- AI prompt library for hooks, scripts, storyboards, visuals, voice-over and captions.
-- Human quality gate for final rendered content.
-- Manual publishing calendar and post log.
-- Official affiliate link and program-term register.
-- Results sheet using platform/partner source data.
-- Weekly review and next-test decision.
+## 6. Non-functional requirements
+- Responsive layout and keyboard-usable primary flows.
+- Clear status and recoverable errors.
+- No unsupported claims that integrations or automation are live.
+- Minimize collected personal data.
+- Protect saved drafts and credentials using approved platform controls.
+- Log significant status transitions where persistent storage exists.
+- Use accessible contrast, visible focus, labels, and descriptive errors.
+- Model outputs are untrusted drafts and must pass review.
 
-### P1 — after initial evidence
-- Reusable product briefs and creative templates.
-- Versioned prompts and asset library.
-- Batch drafting with per-asset approval.
-- Light dashboard for content and verified performance data.
-- Add digital product campaigns if valid offers and terms exist.
-
-### P2 — only if justified
-- Creator workspace or campaign directory.
-- Authorized analytics/affiliate integrations.
-- Multi-user permissions and audit history.
-- Scheduled publishing through official supported integrations with explicit approval.
-
-## 5. Non-goals for MVP
-
-- Building a public AI SaaS or affiliate marketplace immediately.
-- Treating KURALIVO as the public affiliate account.
-- Custom checkout, wallet, payouts, inventory, or commission attribution.
-- Guaranteed earnings or sales.
-- Paid ads, inventory purchase, paid creator seeding, or paid subscriptions without explicit approval.
-- Unsupervised mass generation and posting.
-- Fake testimonials, fabricated firsthand experience, misleading product visuals or invented claims.
-- Scraping private communities, spam, fake engagement, or platform circumvention.
-
-## 6. Required workflow
-
-1. Verify account eligibility and affiliate pathway.
-2. Verify product, seller, permitted channel, terms and assets.
-3. Create an evidence pack.
-4. Generate creative options with AI.
-5. Review facts, product depiction, rights, disclosures and platform rules.
-6. Approve the final rendered video.
-7. Publish manually only when permitted.
-8. Record post URL, date, format, reach, watch metrics, clicks, and partner-reported orders/commission when available.
-9. Review results weekly and choose one controlled experiment.
-
-## 7. Content acceptance criteria
-
-- Claims are sourced; uncertainty is explicit.
-- Product appearance and features match reliable product information.
-- No fabricated use, review, testimonial, result, price, discount, or scarcity.
-- Rights for images, footage, music, voice, logo, fonts, and likenesses are addressed.
-- Required AI and affiliate disclosures are present.
-- Target account and program permit the format and link placement.
-- CTA and destination are accurate.
-- Human approval of final render is recorded.
-- Performance claims reference a named source and time period.
+## 7. Acceptance criteria
+- A user can create a project and enter product/audience context.
+- The project can hold sourced facts and their check dates.
+- Draft assets are editable and status-labelled.
+- Approval cannot be inferred from generation alone.
+- Exported package includes script, caption, CTA, source notes, and disclosure reminders.
+- Published performance is never fabricated; absent metrics show “not recorded”.
+- User can return to an incomplete draft without losing saved work, if persistence is implemented.
+- All integrations are labelled Available, Beta, Planned, or Not connected based on actual state.
 
 ## 8. Metrics
-
-- Eligibility status and verified offers.
-- Time to generate and approve a creative.
+- Time from brief to approved content.
 - First-review pass rate and correction rate.
-- Posts published, reach/views and watch metrics when available.
-- Outbound clicks where measurable.
-- Partner-reported orders, confirmed conversions, commission status.
-- Cost/time per approved creative.
-- Broken links, complaints, takedowns, policy incidents.
+- Number of reviewed/published assets.
+- Production time per approved asset.
+- Actual reach, watch metrics, clicks, orders, and commission when source data exists.
+- Broken links, complaints, takedowns, and policy incidents.
+- Weekly number of actionable learning decisions.
 
-Views, likes, followers, and AI asset volume are not proof of sales.
+## 9. Risks and mitigations
+- **Hallucinated product claims:** evidence pack, source links, human review.
+- **Misleading synthetic visuals:** require product-accuracy check; label illustrative assets.
+- **Rights violations:** record asset provenance and allowed usage.
+- **No affiliate eligibility:** keep content engine usable without active links; never imply monetization.
+- **No sales despite content:** run small tests and use actual data; do not promise outcomes.
+- **Overbuilding:** no public SaaS until repeated use and external demand are demonstrated.
 
-## 9. Risks
+## 10. Out of scope
+Public affiliate account naming, account creation, approval decisions, purchases, paid ads, guaranteed income, autonomous posting, private-source scraping, and any integration not explicitly verified.
 
-- Account is not yet eligible for product links.
-- AI visuals inaccurately depict the real product.
-- Copyright, music, likeness, or merchant asset permission problems.
-- Policy changes or missing AI/affiliate disclosure.
-- Low reach, low buyer intent, low conversion, cancellations or returns.
-- Unreliable product/merchant or insufficient commission economics.
-
-Mitigation: verify first, publish manually, use a small test set, document sources, review policy regularly, and avoid spend until evidence supports it.
-
-## 10. Open questions to resolve during execution
-
-- Exact in-app eligibility shown for the user's TikTok account.
-- First micro-category and verified product shortlist.
-- Available free AI image/video/voice tools.
-- Allowed source assets and use permissions.
-- What platform/affiliate performance data is accessible.
-- Whether the internal workflow shows enough repeated value to justify software.
-
-## 11. Status disclaimer
-
-This PRD does not indicate that TikTok affiliate access is approved, links are live, the domain is connected, automation exists, or revenue has occurred.
+## 11. Release gate
+A release is ready only when the core flow is tested, statuses are accurate, export is usable, and all content-safety gates are present. Repository documentation alone is not proof of implementation.
