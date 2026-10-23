@@ -1,111 +1,126 @@
-# KURALIVO — AI-First Brand & Go-to-Market Strategy
+# KURALIVO — Brand Strategy & Go-to-Market
+
+## Decision
+
+KURALIVO launches as an **AI-powered affiliate content brand**, not as a software product on day one. It will create helpful, faceless-first short-form content to promote third-party products, beginning with physical products through official affiliate programs. AI is the production engine behind the brand. A creator-facing AI Content Engine is a later product possibility, earned through evidence.
+
+**Sequence:** content brand → eligibility and affiliate setup → first real content tests → repeatable workflow → optional creator tool.
 
 ## Positioning
 
-KURALIVO is an **AI-first affiliate content engine**. It turns verified product information into faceless-first content concepts, scripts, visual assets, and measurable affiliate experiments. It starts with physical products, then supports digital products where an authorized affiliate arrangement or a clear owned-product agreement exists.
+**AI-powered product content. Useful recommendations. Real evidence.**
 
-**Brand line:** From product to content. From content to a measurable sales opportunity.
+KURALIVO helps viewers discover products through clear explanations, use-case content, product comparisons, and buyer checklists. It should not look like a generic AI-generated ad farm. The brand wins through relevance, clarity, accurate product depiction, and consistent learning.
 
-**Brand promise:** Make useful product content with less guesswork—not a promise of guaranteed sales.
+## Brand role in the ecosystem
 
-## Brand personality
+- **HOLBERY:** parent and product factory; builds digital products and systems.
+- **AMARIFA:** proposed discovery/promotion direction focused on digital solutions.
+- **KURALIVO:** content brand and affiliate operator for physical products first, then eligible digital products; AI is the creative-production method.
+- A future **KURALIVO AI Content Engine** may help creators reproduce the validated workflow.
 
-Practical, transparent, inventive, evidence-led, approachable, modern. Visually premium and clean; language stays clear and grounded. AI is a production advantage, not a substitute for product truth.
+AMARIFA remains a proposed direction pending independent name/domain/trademark verification. Bozq One System stays private and separate.
 
-## Ecosystem roles
+## Initial audience and content pillars
 
-- **HOLBERY:** parent and product factory; develops digital products, systems, and standards.
-- **AMARIFA:** digital discovery and promotion direction; helps users discover relevant solutions.
-- **KURALIVO:** AI-assisted affiliate content, physical-first campaigns, authorized links, and performance learning.
+Audience: people looking for practical product recommendations, product comparisons, and specific use-case solutions.
 
-AMARIFA is a proposed direction and needs separate name/domain/trademark verification. Keep the brands' jobs distinct. Bozq One System remains private and separate.
+Start with one micro-category rather than a general store. Candidate categories must be assessed for genuine demand, merchant reliability, content feasibility, claim risk, returns, and affiliate access before selection.
 
-## Strategic choices
+Content pillars:
+1. **Problem → solution:** a specific everyday problem and what buyers should evaluate.
+2. **Product explainer:** accurate features and limitations sourced from official listing/merchant materials.
+3. **Comparison / before you buy:** transparent criteria without invented tests or unsupported claims.
+4. **Use-case guide:** how a product may fit a specific situation, based on verifiable details.
+5. **Buyer FAQ:** answers to real product questions.
+6. **Digital workflow:** later, relevant digital tools/templates where an authorized affiliate program or clear owned-product arrangement exists.
 
-- **Physical-first, digital-enabled:** validate a real physical-product affiliate workflow before expanding categories.
-- **Faceless-first:** prioritize hands-only demos where legitimate, licensed/merchant-approved footage, product explainers, motion graphics, generated backgrounds, typography, and AI voice-over. A human face is optional, never required.
-- **AI-assisted end-to-end:** use AI for research synthesis, audience hypotheses, creative angles, scripts, storyboards, visual prompts, captions, localization, and analysis. A human must verify facts, rights, disclosures, account eligibility, and final output.
-- **Platform-native distribution:** create content suited to each channel rather than mass-posting identical assets everywhere. Repurpose only after checking each platform's current rules.
-- **Proof before software:** start with a manual content pipeline and a small set of offers; automate only repetitive steps validated by use.
+## AI-first, faceless-first production
 
-## Product and campaign selection
+Use AI for research synthesis, hook ideas, scripts, storyboard, visual prompts, motion graphics, voice-over, captions, subtitles, and variations. Use generated people only as clearly disclosed synthetic creative elements where appropriate; never imply they are genuine customers or real endorsers.
 
-Score candidates on:
-1. Verifiable customer problem and product fit.
-2. Merchant reliability, fulfillment, return/refund clarity.
-3. Current affiliate program availability and account eligibility.
-4. Commission basis, attribution, payout owner, and cancellation rules.
-5. Ease of producing truthful content without claiming firsthand use.
-6. Rights-cleared images/video/product data.
-7. Claim risk, safety risk, regulatory risk, and platform restrictions.
-8. Price/competition and visible evidence of demand, without treating views as proof of sales.
+Preferred formats:
+- typography and motion graphics based on verified product facts;
+- hands-only footage when a real product is available;
+- official merchant assets with permitted usage;
+- accurate screen recordings for digital products where authorized;
+- AI-generated illustrative scenes that are not passed off as actual product proof;
+- AI voice-over or captions with appropriate rights and disclosures.
 
-Reject counterfeit, illegal, unsafe, misleading, restricted, or unsupported offers. Do not select products based on commission alone.
+Human review of the final rendered asset remains mandatory.
 
-## AI content production pipeline
+## TikTok-first path
 
-1. **Intake:** product, merchant, official URL, category, audience, platform, affiliate-program terms, allowed channels, assets and usage rights.
-2. **Evidence pack:** sourced features, limits, current price with source/date if shown, verified specs, common questions, approved claims, prohibited claims.
-3. **Creative planning:** audience pain point, intent, content angle, hook, proof, CTA, format, disclosure placement.
-4. **Generation:** draft scripts, shot lists, storyboard, voice-over, captions, graphics, and visual-generation prompts.
-5. **Asset creation:** use generated assets or authorized source assets; do not generate a misleading representation of product appearance, packaging, results, or real customer experience.
-6. **Review:** human checks facts, image fidelity, rights, disclosure, synthetic-media labeling requirements, and platform policy.
-7. **Publish:** only when the account and affiliate program permit the intended placement and link.
-8. **Measure:** save post URL/date, format, reach/views, watch metrics if available, outbound clicks, partner-reported orders/conversions, commission status, and source.
-9. **Iterate:** test one variable at a time; retain failures as useful evidence.
+1. Check the current TikTok account and in-app Affiliate/Shop access. Requirements may vary by account type, location, and feature; use the user's own in-app eligibility display as the operational source.
+2. Confirm age/identity verification, follower or activity thresholds, account standing, and any required setup.
+3. Verify each product and seller, allowed promotion format, commission/attribution terms, payout rules, and link destination.
+4. Generate original content from a product evidence pack.
+5. Review the actual final video for factual accuracy, product appearance, rights, disclosure, and current platform policy.
+6. Publish manually and use the official affiliate link only when access is enabled.
+7. Review actual metrics weekly and test one variable at a time.
 
-## Initial content formats
+If affiliate access is not yet available, continue building content quality and audience without claiming that posts are shoppable or commissions are active. Use another affiliate program only if it is legitimate and the relevant channel permits that link placement.
 
-- Problem → solution explanation.
-- Product feature explainer based on sourced facts.
-- Comparison using transparent criteria.
-- “Before you buy” checklist.
-- Setup/use tutorial, only when the depicted process is accurate.
-- FAQ from genuine buyer questions.
-- Use-case animation or motion graphic.
-- Product selection guide for a specific use case.
-- Digital-product walkthrough or template preview.
+## Product selection scorecard
 
-Never invent personal use, unboxing, before/after results, customer quotes, testimonials, medical/financial outcomes, sales figures, discounts, scarcity, or product performance.
+Assess:
+- clear buyer need and audience fit;
+- credible merchant, product details, delivery and returns;
+- official affiliate access for the account;
+- commission, attribution, cancellations and payout terms;
+- ability to create useful content without falsely claiming firsthand use;
+- availability of rights-cleared product assets;
+- safety, regulatory, IP, and platform risk;
+- evidence of demand, competition, and realistic buyer intent.
 
-## Go-to-market
+Reject counterfeit, illegal, unsafe, restricted, or misleading offers. Do not choose on commission percentage alone.
 
-### Phase A — learn with one operator
-Pick one micro-category and a small candidate set. Verify official affiliate eligibility before content production. Generate and review a limited batch of original videos, publish manually, and log results. No paid ads, inventory purchases, or new subscriptions until explicitly approved and evidence warrants them.
+## Content quality gate
 
-### Phase B — repeatable content system
-Document which briefs, prompts, assets, and formats are repeatable. Build reusable templates and a lightweight content tracker. If affiliate access is not yet available, use non-monetized product education only where lawful and policy-compliant; do not imply affiliate links or campaigns are live.
+Before every publication:
+- factual claims trace to a reliable source;
+- visual depiction matches the real product and listing;
+- no fabricated personal use, testimonials, reviews, results, scarcity, price, or discount;
+- asset, music, voice, logo, font, and likeness rights are addressed;
+- AI-generated content is labeled/disclosed as current policy requires;
+- affiliate disclosure is clear;
+- account/program permits the format and link placement;
+- destination works and matches the product;
+- final rendered video is approved by a human.
 
-### Phase C — curated creator pilot
-Invite a small group only after a real offer and content process work. Give creators transparent terms, approved claims, disclosure instructions, and optional AI content tools. Do not guarantee earnings.
+## Validation milestones
 
-### Phase D — tool/product layer
-Consider a creator-facing content workspace, campaign catalog, or paid digital toolkit only after users demonstrate repeated need and willingness to use/pay.
+### Stage 1 — setup
+Verify account eligibility, choose one micro-category, shortlist a few offers, and create the prompt/checklist workflow.
 
-## Validation metrics
+### Stage 2 — content experiments
+Produce a small batch of original videos and publish manually where permitted. Track source metrics and production time. Do not buy inventory or paid tools.
 
-- Verified offers that pass the product gate.
-- Percentage of generated assets passing first review.
-- Time from verified brief to approved creative.
-- Original posts published and policy issues.
-- Reach, watch/retention metrics where available, and outbound clicks.
-- Confirmed conversions and commission only from the authorized partner source.
-- Content production cost and operator time.
-- Broken-link rate, corrections, complaints, and takedowns.
-- Repeatable content formats supported by more than one test.
+### Stage 3 — repeatability
+Identify which product angles and creative formats have actual evidence of useful reach, clicks, or conversions. Reproduce only what the data supports.
 
-Do not define success solely by generated asset count, views, followers, or AI output volume.
+### Stage 4 — engine
+Turn proven repetitive steps into a documented internal AI workflow, templates, prompt library, and lightweight tracker.
 
-## Compliance and trust
+### Stage 5 — creator product (optional)
+Only if creators express a real need and the workflow is proven, explore a KURALIVO creator tool, campaign directory, or content workspace.
 
-- Disclose affiliate relationships clearly and close to relevant recommendations/links.
-- Follow current platform affiliate, AI/synthetic-media, copyright, branded-content, and spam rules.
-- Obtain rights for product footage, music, logos, fonts, and likenesses; AI generation does not automatically clear rights.
-- Check whether a platform allows affiliate links for the account type and placement. Eligibility can vary by country, account, and feature.
-- Use only factual product claims that can be substantiated; keep a source/date for changeable claims.
-- Do not fake engagement, scrape private groups, bypass restrictions, or mass-post low-quality variants.
-- Human approval is mandatory before publication in the MVP.
+## Metrics
+
+- account eligibility and verified offers;
+- approved/published creatives and first-review pass rate;
+- time and cost per approved creative;
+- reach, watch/retention metrics where available, clicks;
+- confirmed conversions and reported commission from official partner data;
+- broken links, corrections, complaints, takedowns, and policy incidents;
+- repeatability of successful content formats.
+
+Do not treat views as sales or generated asset count as business validation.
+
+## Trust and platform compliance
+
+TikTok Shop's public policy material states that AI-generated content is allowed when it complies with Shop and Community rules, but product visuals must not misrepresent the real item, and generated content must not fake results or customer experiences. Requirements can change; check the latest policy before each campaign. Disclose affiliate relationships and AI-generated/altered content when required.
 
 ## Current status
 
-Strategy and website code are drafts. No live affiliate eligibility, merchant agreement, product campaign, AI automation, domain connection, or revenue is implied. Confirm each item independently before claiming it is live.
+Strategy and website code are drafts. No account eligibility, approved campaign, working affiliate link, connected domain, automated publishing, or revenue is implied.
