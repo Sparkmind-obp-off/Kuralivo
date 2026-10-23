@@ -1,22 +1,22 @@
 # KURALIVO
 
-**AI-powered affiliate content. Built to learn what sells.**
+**Internal AI Content Engine. Built to produce useful content for separate brands and campaigns.**
 
-KURALIVO starts as a public-facing short-form content brand focused on discovering and promoting useful physical products through eligible affiliate programs. AI is the core creative production method: research synthesis, hooks, scripts, storyboards, visual generation, voice-over, captions, editing support, and performance analysis. The initial style is **faceless-first**; showing a human face is optional.
+KURALIVO is the internal AI Content Engine for planning and producing marketing content. It supports research, product evidence packs, hooks, scripts, storyboards, visual direction, voice-over, captions, creative variants, review, and performance learning. The initial workflow is **faceless-first**; showing a human face is optional. KURALIVO is not the public affiliate account.
 
 The longer-term ambition is to turn the repeatable workflow into a KURALIVO AI Content Engine. We will not build a full platform before the content and sales process produces evidence.
 
 ## Strategic decision
 
-**Content brand first → affiliate sales proof → repeatable AI workflow → creator-facing engine later.**
+**Internal content engine → separate affiliate account → real publishing and sales tests → improve the engine from evidence.**
 
-The first goal is not to sell AI software. It is to run a focused TikTok content account, verify affiliate eligibility, publish compliant original content, and learn from real data. If TikTok Shop Affiliate access is not yet available, build the content habit and audience without pretending shoppable links or commissions are active. Any alternative affiliate link must be allowed by the platform and the relevant program.
+The first goal is to make KURALIVO useful as a production engine while a separate public affiliate account is named and set up. Once the new account exists, verify its in-app eligibility, publish compliant original content, and learn from real data. Do not imply that shoppable links or commissions are active before confirmation.
 
 ## Ecosystem roles
 
 - **HOLBERY — Parent & Product Factory:** builds digital products, systems, and product standards.
 - **AMARIFA — Digital Discovery & Promotion Direction:** proposed direction for discovery and promotion of relevant digital solutions; name/domain/trademark checks remain separate.
-- **KURALIVO — AI-Powered Affiliate Content Brand:** promotes third-party products first, beginning with physical products, using AI-driven creative production. Over time it may package the proven workflow into a content engine for other creators.
+- **KURALIVO — Internal AI Content Engine:** produces and organizes content assets for a separate public affiliate account or other approved campaigns. A public creator-facing tool is not in scope yet.
 
 Bozq One System remains private and separate.
 
@@ -24,16 +24,15 @@ Bozq One System remains private and separate.
 
 KURALIVO is a helpful product-discovery brand, not a generic AI-video spam account. Every post should answer a specific buyer question, show a product accurately, compare choices fairly, or explain a use case. AI speeds up production; product truth earns trust.
 
-## TikTok-first operating plan
+## Engine-first operating plan
 
-1. Inspect TikTok account status and the currently available Shop/Affiliate entry path inside the user's own app.
-2. Verify the current country/account-specific eligibility requirements, identity/age checks, allowed link placements, and any follower threshold shown by TikTok.
-3. Choose one low-risk product micro-category and shortlist products from reliable merchants.
+1. Build a repeatable KURALIVO workflow for product research, evidence packs, creative briefs, scripts, storyboards, visual direction, captions, and quality review.
+2. Pick and verify one low-risk product micro-category when preparing the separate affiliate account.
+3. Name and set up that public account separately; verify account-specific eligibility inside the platform.
 4. Verify each offer, product facts, permitted assets, commission terms, and link access before monetized promotion.
-5. Create original faceless-first content with AI; human-review the final render.
-6. Publish manually, track real reach/click/conversion data, and improve one creative variable at a time.
-7. Build a reusable internal AI workflow after the first repeatable patterns emerge.
-8. Consider a creator-facing content engine only after the internal process is useful and repeatable.
+5. Generate original faceless-first content with KURALIVO and human-review the final render.
+6. Publish manually through the separate account, then track real reach/click/conversion data and improve one creative variable at a time.
+7. Keep KURALIVO internal until actual use shows which steps should be automated.
 
 ## AI content principles
 
@@ -58,9 +57,9 @@ KURALIVO is a helpful product-discovery brand, not a generic AI-video spam accou
 
 No custom checkout, wallet, payout processing, autonomous publishing, paid ads, inventory purchase, or paid subscriptions in the initial validation phase.
 
-## When KURALIVO becomes an engine
+## How KURALIVO evolves
 
-Only after evidence of a repeatable content process:
+KURALIVO is the engine from the start, initially as a lightweight internal workflow. Add complexity only when repeated use proves it valuable:
 - Versioned prompts and creative templates.
 - Product evidence packs.
 - Batch draft generation with approval gates.
@@ -93,4 +92,4 @@ Views are not sales; clicks are not confirmed conversions; reported commission i
 
 Domain plan: https://kuralivo.biz.id
 
-This repository contains strategy and prototype code. It does not prove the domain is connected, the account is approved, a product offer is eligible, an affiliate link works, automation is live, or revenue has been earned. Verify each item independently before representing it as active.
+This repository contains strategy and prototype code for an internal content engine. A separate affiliate account name is not selected yet. It does not prove the domain is connected, any account is approved, a product offer is eligible, an affiliate link works, automation is live, or revenue has been earned. Verify each item independently before representing it as active.
