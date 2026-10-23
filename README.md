@@ -1,95 +1,47 @@
-# KURALIVO
+# KURALIVO — Internal AI Content Engine
 
-**Internal AI Content Engine. Built to produce useful content for separate brands and campaigns.**
+**KURALIVO is an internal AI-assisted content-production engine in the HOLBERY ecosystem.** It helps turn verified product and audience context into useful, reviewed, ready-to-publish content packages. The public affiliate account will be separate and its name is TBD.
 
-KURALIVO is the internal AI Content Engine for planning and producing marketing content. It supports research, product evidence packs, hooks, scripts, storyboards, visual direction, voice-over, captions, creative variants, review, and performance learning. The initial workflow is **faceless-first**; showing a human face is optional. KURALIVO is not the public affiliate account.
+## Product direction
+Evidence-first content workflow → separate public publishing account → real content experiments → improve the engine from measured results. Public SaaS, marketplace, billing, autonomous publishing, and creator-facing features are deferred until real usage justifies them.
 
-The longer-term ambition is to turn the repeatable workflow into a KURALIVO AI Content Engine. We will not build a full platform before the content and sales process produces evidence.
-
-## Strategic decision
-
-**Internal content engine → separate affiliate account → real publishing and sales tests → improve the engine from evidence.**
-
-The first goal is to make KURALIVO useful as a production engine while a separate public affiliate account is named and set up. Once the new account exists, verify its in-app eligibility, publish compliant original content, and learn from real data. Do not imply that shoppable links or commissions are active before confirmation.
-
-## Ecosystem roles
-
-- **HOLBERY — Parent & Product Factory:** builds digital products, systems, and product standards.
-- **AMARIFA — Digital Discovery & Promotion Direction:** proposed direction for discovery and promotion of relevant digital solutions; name/domain/trademark checks remain separate.
-- **KURALIVO — Internal AI Content Engine:** produces and organizes content assets for a separate public affiliate account or other approved campaigns. A public creator-facing tool is not in scope yet.
-
-Bozq One System remains private and separate.
-
-## Content positioning
-
-KURALIVO is a helpful product-discovery brand, not a generic AI-video spam account. Every post should answer a specific buyer question, show a product accurately, compare choices fairly, or explain a use case. AI speeds up production; product truth earns trust.
-
-## Engine-first operating plan
-
-1. Build a repeatable KURALIVO workflow for product research, evidence packs, creative briefs, scripts, storyboards, visual direction, captions, and quality review.
-2. Pick and verify one low-risk product micro-category when preparing the separate affiliate account.
-3. Name and set up that public account separately; verify account-specific eligibility inside the platform.
-4. Verify each offer, product facts, permitted assets, commission terms, and link access before monetized promotion.
-5. Generate original faceless-first content with KURALIVO and human-review the final render.
-6. Publish manually through the separate account, then track real reach/click/conversion data and improve one creative variable at a time.
-7. Keep KURALIVO internal until actual use shows which steps should be automated.
-
-## AI content principles
-
-- AI can generate scripts, storyboards, voice-over drafts, graphics, backgrounds, and video elements.
-- Product depictions must match the real item and its official listing. Never generate nonexistent features, fake product results, fabricated unboxing, testimonials, or false firsthand use.
-- Use merchant-approved assets or assets with documented rights. AI output does not automatically clear copyright, trademark, music, or likeness rights.
-- Apply the platform's current AI-generated-content disclosure rules when required.
-- Use affiliate disclosure and follow all current program/platform rules.
-- No mass posting, fake engagement, spam, misleading urgency, or unverified earnings claims.
-- Human review is required before publishing in the initial phase.
-
-## Initial MVP (no-code/manual)
-
-- One TikTok content account.
-- One micro-category.
-- A small verified product shortlist.
-- AI prompt library for research, scripts, visuals, captions, and review.
-- Human quality gate.
-- Manual content calendar and publication log.
-- Link/eligibility register.
-- Simple results tracker based on platform and affiliate-partner data.
-
-No custom checkout, wallet, payout processing, autonomous publishing, paid ads, inventory purchase, or paid subscriptions in the initial validation phase.
-
-## How KURALIVO evolves
-
-KURALIVO is the engine from the start, initially as a lightweight internal workflow. Add complexity only when repeated use proves it valuable:
-- Versioned prompts and creative templates.
-- Product evidence packs.
-- Batch draft generation with approval gates.
-- Creator workspace or campaign catalog if users need it.
-- Authorized platform/affiliate reporting integrations where available.
-
-## Metrics
-
-Track the stages separately:
-- Account and affiliate eligibility status.
-- Approved product offers.
-- AI creatives generated and human-approved.
-- Published posts, reach/views, watch metrics when available.
-- Outbound clicks where measurable.
-- Partner-reported orders and confirmed conversions.
-- Commission status from the official source.
-- Production time, correction rate, complaints, and policy incidents.
-
-Views are not sales; clicks are not confirmed conversions; reported commission is not necessarily paid commission.
-
-## Repository guide
-
+## Start here
+- [Vision, mission & product thesis](docs/vision-mission.md)
+- [Product principles & scope](docs/product-principles.md)
+- [PRD 1.0](docs/prd-1.0.md)
+- [User personas & journeys](docs/user-personas-and-journeys.md)
+- [Information architecture](docs/information-architecture.md)
+- [UI/UX design system](docs/ui-ux-design-system.md)
+- [Screen specifications](docs/ui-screen-specs.md)
+- [System design](docs/system-design.md)
+- [Data model](docs/data-model.md)
+- [AI content pipeline](docs/ai-content-pipeline.md)
+- [Prompt library](docs/prompt-library.md)
+- [Analytics & experiments](docs/analytics-experiments.md)
+- [Security, privacy & compliance](docs/security-privacy-compliance.md)
+- [Operations runbook](docs/operations-runbook.md)
+- [Architecture decisions](docs/architecture-decisions.md)
+- [Release & testing plan](docs/release-and-testing.md)
+- [Glossary](docs/glossary.md)
 - [Brand strategy](docs/brand-strategy.md)
-- [AI Content Engine operating model](docs/ai-content-engine.md)
-- [Content workflow and prompt library](docs/content-workflow-and-prompts.md)
-- [PRD 0.1](docs/prd-0.1.md)
-- [Roadmap and metrics](docs/roadmap-and-metrics.md)
+- [Roadmap & metrics](docs/roadmap-and-metrics.md)
 
-## Status and domain
+## First operating loop
+Brief → evidence pack → creative plan → AI drafts → human review → export → manual publishing through the separate account → record source metrics → choose the next experiment.
 
-Domain plan: https://kuralivo.biz.id
+## Operating guardrails
+- AI output is a draft, not evidence or approval.
+- Never fabricate product features, prices, results, testimonials, scarcity, personal use, commissions, or earnings.
+- Track asset rights, source dates, and required disclosures.
+- Publish manually only when the account and platform permit it.
+- Keep secrets out of prompts, logs, and Git.
+- Do not claim a feature, integration, account approval, deployment, or revenue is live without verification.
 
-This repository contains strategy and prototype code for an internal content engine. A separate affiliate account name is not selected yet. It does not prove the domain is connected, any account is approved, a product offer is eligible, an affiliate link works, automation is live, or revenue has been earned. Verify each item independently before representing it as active.
+## Ecosystem
+- HOLBERY: parent and product factory.
+- KURALIVO: internal content engine.
+- Separate affiliate account: public distribution and monetization channel; name TBD.
+- Bozq One System remains private and separate.
+
+## Status
+These documents define product intent and proposed behavior; they are not proof that a SaaS app, AI integration, database, domain connection, or deployment exists. Check the implementation and live service independently.
