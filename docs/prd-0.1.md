@@ -1,12 +1,12 @@
-# KURALIVO PRD 0.1 — AI-Powered Affiliate Content Brand
+# KURALIVO PRD 0.1 — Internal AI Content Engine
 
 **Status:** Validation draft. The first release is a manual content operation, not a software platform.
 
 ## 1. Product definition
 
-KURALIVO is a TikTok-first content brand that promotes third-party products through eligible affiliate programs. AI is used throughout creative production, with faceless-first formats. The initial focus is physical products. Digital products may be added when there is a legitimate affiliate program or clear owned-product arrangement.
+KURALIVO is an internal AI Content Engine for planning, generating, reviewing, and learning from marketing content. It does not own or represent the public affiliate account. A separate account name will be chosen later; it will publish approved content and promote products only through eligible, official affiliate paths.
 
-The future AI Content Engine is an optional evolution of the internal workflow, not the first customer-facing product.
+The initial release is a lightweight, manual workflow—not a public SaaS or marketplace.
 
 ## 2. Objective
 
@@ -15,6 +15,7 @@ Establish whether KURALIVO can consistently produce useful, compliant original c
 ## 3. Users and roles
 
 - Operator/editor: verifies products and terms, generates creative, approves and publishes, tracks outcomes.
+- Publisher/operator of the separate affiliate account: uses approved KURALIVO outputs to publish and test content.
 - Viewer/buyer: discovers a product and evaluates whether it suits their needs.
 - Affiliate partner/merchant: supplies official product facts, terms, approved assets, link and reporting.
 - Future creator: may use a proven workflow if a real need is validated.
@@ -22,7 +23,8 @@ Establish whether KURALIVO can consistently produce useful, compliant original c
 ## 4. MVP scope
 
 ### P0 — required
-- Check TikTok account status and current in-app affiliate eligibility.
+- Create reusable content-production workflow and quality gate.
+- Choose a distinct name and set up the separate affiliate account; check its status and current in-app affiliate eligibility.
 - Choose one micro-category and shortlist a small number of products.
 - Product/merchant verification record.
 - Evidence pack with sources, dates, claims and limitations.
@@ -49,6 +51,7 @@ Establish whether KURALIVO can consistently produce useful, compliant original c
 ## 5. Non-goals for MVP
 
 - Building a public AI SaaS or affiliate marketplace immediately.
+- Treating KURALIVO as the public affiliate account.
 - Custom checkout, wallet, payouts, inventory, or commission attribution.
 - Guaranteed earnings or sales.
 - Paid ads, inventory purchase, paid creator seeding, or paid subscriptions without explicit approval.
