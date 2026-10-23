@@ -1,58 +1,70 @@
 # KURALIVO — Brand & Go-to-Market
 
 ## Positioning
-KURALIVO is a consumer-facing, cross-category recommendation brand under HOLBERY. It helps people discover useful physical and digital products through concise, evidence-aware curation.
+KURALIVO is the affiliate and creator network in the HOLBERY ecosystem. It helps affiliates discover approved campaigns, understand terms before promoting, use authorized assets, and review performance only from identifiable sources.
 
 **Brand promise:** Pilihan yang tepat. Lebih sedikit menebak.
 
-**Audience:** Indonesian consumers who want help choosing practical products and digital resources without wading through confusing options.
+**Primary audiences:** Indonesian affiliates and creators, especially emerging and niche creators; secondary audience is legitimate product owners and merchants seeking structured creator distribution.
 
-**Brand traits:** modern, clear, considered, approachable, honest. Premium in presentation, accessible in language.
+**Brand traits:** modern, clear, practical, respectful, honest. Premium in presentation, accessible in language.
 
-## Business model: staged, affiliate-first
-1. **Affiliate recommendations first.** No inventory or private-label production required to test demand. Only publish partner links after the program and tracking link are confirmed.
-2. **Mix physical and digital products.** Start with a small number of products from a focused test category; do not publish a giant generic catalog.
-3. **Owned digital products later.** Build a template, guide, or toolkit only after repeated questions and audience signals show a real problem worth solving.
-4. **Physical inventory last.** Consider stocking/reselling only when economics, demand, fulfilment, and returns are understood.
+## Ecosystem roles
+- **HOLBERY:** parent and product factory; builds or selects products and governs standards.
+- **AMARIFA:** proposed discovery, curated catalog, marketplace direction, and brand promotion layer.
+- **KURALIVO:** affiliate/creator onboarding, campaign access, approved assets, tracking links, and performance learning.
+
+The initial KURALIVO product is a campaign operating layer, not a custom checkout or wallet. AMARIFA is a proposed name and requires separate trademark/domain checks before public launch.
+
+## Business model: staged and affiliate-first
+1. **Concierge pilot:** coordinate one real campaign manually and document the work.
+2. **Campaign directory:** publish only verified offers with clear terms and functioning destinations.
+3. **Affiliate enablement:** provide content briefs, approved assets, link instructions, and transparent reporting.
+4. **Merchant services:** consider campaign operations or promotion fees only after partner demand and unit economics are observed.
+5. **Platform automation:** build affiliate accounts, dashboards, and integrations only when repeated manual work justifies it.
+
+Do not hold customer funds, promise automatic payouts, or claim proprietary attribution in the MVP.
 
 ## Initial validation
-- Pick 1–2 tightly related micro-categories to test, while keeping the overall brand category-neutral.
-- Publish useful buying guides/comparisons with sources and clear selection criteria.
-- Track qualified visits, outbound clicks, questions, saves/shares, and attributed conversions where the affiliate program supports them.
-- Review after a small, defined batch of content. Keep, improve, or stop based on observed signals; never describe assumptions as proven demand.
-- Avoid paid ads and domain/account purchases beyond what the owner has already approved until organic signals justify spending.
+- Select one accessible micro-category based on real merchant availability, product fit, claim risk, and trackable affiliate terms.
+- Secure one written/recorded merchant offer with commission basis, payout responsibility, tracking source, eligibility, cancellation rules, and permitted channels.
+- Test interest with relevant creators; do not count generic sign-ups as active participation.
+- Run one pilot without paid advertising and report the actual evidence source.
+- Track qualified merchant leads, approved campaigns, creator applications, active creators, valid clicks, partner-reported conversions, and unresolved disputes.
+- Continue, revise, or stop based on observed signals. Industry growth is not proof of demand for KURALIVO.
 
-## Content formats
-- “Cocok untuk siapa?”
-- “Yang perlu dicek sebelum membeli”
-- “A vs B: perbedaan yang benar-benar penting”
-- “Pilihan untuk kebutuhan/budget tertentu” (prices must be verified and date-stamped)
-- Practical setup/how-to guides
-- Honest limitations and alternatives
+## Content and campaign formats
+- Product/campaign brief: who it fits and who it does not fit.
+- “What affiliates must know before promoting.”
+- Approved claims vs prohibited claims.
+- Content angles and short-form video prompts.
+- Product comparison based on verifiable criteria.
+- Campaign result recap with source and reporting period.
 
-## Editorial rules
-- Never invent first-hand use, reviews, stock, prices, discounts, sales volume, or customer results.
-- Cite reliable sources for specifications and claims; mark the date for time-sensitive prices.
-- Separate tested experience from desk research and manufacturer claims.
-- Disclose affiliate relationships close to the relevant link.
-- Do not recommend solely because a commission is higher.
-- Include drawbacks and cases where a product is not a good fit.
-- No health, financial, safety, or performance promises without appropriately strong evidence.
+## Editorial and campaign rules
+- Never invent personal use, reviews, sales, stock, discounts, commissions, or creator earnings.
+- Cite reliable sources for product claims and date-stamp time-sensitive information.
+- Distinguish merchant claims, desk research, and firsthand experience.
+- Disclose affiliate/sponsored relationships near relevant content and links.
+- Do not rank offers only by commission.
+- State tracking limitations and distinguish clicks, orders, confirmed conversions, reported commission, and paid commission.
+- Reject illegal, counterfeit, unsafe, deceptive, or unsupported products and claims.
 
-## Brand architecture
-- Parent: HOLBERY.
-- Consumer recommendation brand: KURALIVO.
-- Bozq One System remains private and separate; do not merge its brand, assets, or internal information into KURALIVO.
+## Brand architecture and boundaries
+- Parent/product factory: HOLBERY.
+- Discovery/promotion layer (proposed): AMARIFA.
+- Affiliate/creator network: KURALIVO.
+- Bozq One System remains private and separate; do not merge its brand, assets, or internal information into this ecosystem.
 
 ## Website launch checklist
-- [ ] Connect and verify `kuralivo.biz.id` DNS to the chosen host.
-- [ ] Add verified contact channel; do not imply the placeholder email is operational until configured.
-- [ ] Add privacy policy and terms suitable for actual analytics/affiliate setup.
-- [ ] Join suitable affiliate programs and verify terms and links.
-- [ ] Add a clear affiliate disclosure before publishing monetized recommendations.
+- [ ] Connect and verify kuralivo.biz.id DNS to the chosen host.
+- [ ] Configure a real monitored contact channel or working interest form.
+- [ ] Publish privacy notice, terms, affiliate disclosure, and campaign rules suitable for actual operations.
+- [ ] Confirm at least one legitimate merchant and official affiliate program.
+- [ ] Verify campaign terms, destination, tracking source, and payout responsibility.
 - [ ] Test mobile layout, links, metadata, accessibility, and page load.
-- [ ] Configure lightweight analytics only after deciding what data is needed and publishing the appropriate privacy notice.
+- [ ] Add analytics only after deciding what data is necessary and publishing the relevant notice.
 - [ ] Verify the live domain over HTTPS.
 
 ## Current status
-Repository foundation and landing-page draft added. This does not mean the domain, affiliate accounts, contact inbox, analytics, or hosting are configured.
+Strategy, PRD, UX direction, operations playbook, and AI build brief are in the repository. The website is a code draft; this does not mean the domain, hosting, forms, affiliate accounts, merchant relationships, tracking, or live campaigns are configured.
