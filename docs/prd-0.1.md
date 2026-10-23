@@ -1,194 +1,132 @@
-# KURALIVO Product Requirements Document — 0.1
+# KURALIVO Product Requirements Document — 0.1 (AI-First Content Engine)
 
-**Status:** Draft for validation. Not a production commitment.
-**Product:** KURALIVO affiliate and creator campaign network.
-**Parent ecosystem:** HOLBERY (product factory) → AMARIFA (discovery/promotion) → KURALIVO (affiliate activation).
+**Status:** Validation draft. Not a production commitment.
+**Product:** AI-first affiliate content engine, physical-first and digital-enabled.
 
 ## 1. Product summary
 
-KURALIVO helps creators and affiliates discover approved campaigns, understand the offer, access authorized promotional assets and links, and review whatever performance information can be reliably obtained from the merchant or affiliate platform.
+KURALIVO helps an operator turn verified product information into faceless-first marketing content and evaluate real distribution outcomes. AI assists with research synthesis, creative planning, scripts, storyboards, visual prompts, captions, and analysis. Human review is required before publication.
 
-The first version is an operations-led pilot supported by a lightweight public site and structured campaign records. It is not a full affiliate network with proprietary attribution, payout processing, or marketplace checkout.
+The first release is an operating playbook and manual tracker, not an autonomous publishing platform, custom checkout, payout wallet, or proprietary attribution network.
 
-## 2. Problem statement
+## 2. Problem hypotheses
 
-Affiliates can struggle to identify relevant offers, understand campaign rules, obtain useful product information, and distinguish estimated clicks from confirmed commissionable sales. Small sellers can struggle to brief and coordinate multiple creators. KURALIVO tests whether a curated campaign layer can reduce this friction.
+- Product promotion takes too much time when each creative starts from scratch.
+- New affiliates may lack a repeatable content workflow and may not know which product facts and rules are safe to use.
+- AI can reduce production effort, but unreviewed AI content may create inaccurate claims, rights issues, synthetic-media concerns, or repetitive low-quality posts.
+- A small, evidence-led content loop may help identify product/creative fit before building software.
 
-These are hypotheses to validate, not universal claims.
+These hypotheses must be tested; they are not established market facts.
 
-## 3. Target users
+## 3. Users
 
-### Primary: affiliate/creator
-- New or small creator who wants clear rules and a practical first campaign.
-- Niche creator who needs products that fit their audience.
-- Community publisher who can distribute useful recommendations responsibly.
+- Initial operator: researches offers, generates and reviews content, publishes manually, records outcomes.
+- Future affiliate/creator: uses briefs, templates, authorized links, and content tools.
+- Future merchant/product owner: supplies product facts, usage rights, campaign terms, and performance source.
 
-### Secondary: merchant/brand
-- Small brand or seller with a legitimate product and clear fulfillment.
-- Product owner seeking measurable distribution beyond posting on their own account.
+## 4. MVP outcomes
 
-### Internal operator
-- Reviews products and merchants, publishes campaigns, answers questions, reconciles reports, and handles disputes.
+1. Verify at least one product and its official affiliate pathway before monetized promotion.
+2. Generate a small batch of original creative concepts from a sourced evidence pack.
+3. Review every asset for facts, rights, disclosure, visual fidelity, and platform rules.
+4. Publish manually only if account and program eligibility permit it.
+5. Record metrics from named sources and learn which formats deserve another test.
+6. Keep production and validation costs as close to zero as practical.
 
-## 4. Jobs to be done
+## 5. Non-goals
 
-- As an affiliate, I want to see the product, audience fit, commission basis, eligibility, and payout terms before I spend time creating content.
-- As an affiliate, I want approved assets and a valid destination link so I can promote accurately.
-- As a merchant, I want to explain my offer once and see which creators participate.
-- As an operator, I want a consistent record of campaign terms, link status, performance source, and decisions.
-- As a customer, I want to know when a recommendation may earn a commission and where checkout actually occurs.
+- Guaranteed sales or earnings.
+- Unsupervised AI publication or mass posting.
+- Fake testimonials, synthetic customer endorsements, fabricated hands-on experience, or invented product results.
+- Scraping private communities, spam DMs/comments, fake engagement, or bypassing platform restrictions.
+- Custom checkout, inventory, shipping, wallet, payout processing, or commission attribution.
+- Automated access to accounts without official authorization.
+- Paid ads, paid tooling, or inventory purchase without explicit owner approval.
+- Treating AI-generated images as proof that the real product looks or performs a certain way.
 
-## 5. MVP goals
+## 6. Workflow requirements
 
-1. Validate merchant supply and creator interest.
-2. Run one real, trackable campaign with transparent terms.
-3. Provide a clear campaign page and a manual creator onboarding path.
-4. Capture simple, privacy-conscious activity metrics.
-5. Learn what should be automated next.
+### P0 — required for manual pilot
+- Product intake record: product, merchant, official URL, category, eligibility, permitted channels, source date, rights notes.
+- Evidence pack: sourced facts, limitations, approved/prohibited claims, source URLs, review date.
+- Creative brief: audience hypothesis, intent, hook, angle, proof, format, CTA, disclosure.
+- AI generation templates for scripts, storyboards, image/video prompts, captions, and variants.
+- Human review checklist before publication.
+- Asset log with origin, license/permission, generation tool, and any synthetic-media disclosure decision.
+- Official affiliate link register with program terms and eligibility evidence.
+- Manual content calendar and publication log.
+- Results tracker distinguishing views/reach, clicks, reported orders, confirmed conversions, reported commission, and completed payout.
+- Incident log for inaccurate claims, rights complaints, broken links, takedowns, and corrections.
 
-## 6. Non-goals for 0.1
-
-- Holding customer funds or paying commissions from KURALIVO's own wallet.
-- Building a custom checkout or fulfillment network.
-- Guaranteeing sales, income, or attribution.
-- Building native mobile apps.
-- Building complex multi-level referral/downline commissions.
-- Automated scraping of private communities or platform accounts.
-- Full CRM, tax, invoicing, or merchant ERP.
-- Open public listing without moderation.
-- Custom analytics pretending to know sales not reported by a trusted source.
-
-## 7. MVP user flows
-
-### Affiliate
-1. Visit KURALIVO.
-2. Understand what the network does and how compensation works.
-3. Browse available campaign details or submit interest.
-4. Read product, audience, commission, eligibility, content rules, tracking, cancellation, and payout information.
-5. Apply through a simple form or approved channel.
-6. Receive approval and official links/assets.
-7. Publish compliant content.
-8. Review platform/merchant report or clearly labeled manual status.
-9. Ask questions or report a broken link.
-
-### Merchant
-1. Review the partner proposition.
-2. Submit product, fulfillment, pricing, margin/commission, assets, and policy information.
-3. Operator reviews product claims and terms.
-4. Approve, request changes, or reject.
-5. Agree campaign rules and source of truth for tracking.
-6. Receive creator activity summary where available.
-
-### Operator
-1. Create merchant and product record.
-2. Verify destination URL and program terms.
-3. Create campaign and content kit.
-4. Review affiliate applications.
-5. Issue links and assets.
-6. Record status changes and evidence.
-7. Reconcile reported activity and close campaign.
-
-## 8. Functional requirements
-
-### P0 — required for pilot
-- Public landing page with clear brand role and CTA.
-- Campaign page template with merchant, product, audience fit, destination, commission basis, campaign period, eligibility, content rules, cancellation/return caveats, payout source/timing, and last-verified date.
-- Affiliate interest/application form.
-- Merchant interest form.
-- Manual approval workflow.
-- Operator-controlled campaign status: draft, review, active, paused, ended.
-- Affiliate disclosure near relevant monetized links.
-- Contact/support route that is actually monitored.
-- Basic privacy notice and data minimization.
-- Manual campaign performance log that names the source and timestamp.
-- Link validation checklist before activation.
-
-### P1 — after pilot evidence
-- Affiliate login and personal dashboard.
-- Campaign applications and status.
-- Link/asset library.
-- UTM or referral-link helper where supported and authorized.
-- Campaign announcements.
-- Downloadable content briefs.
-- Basic click events with privacy notice and consent where required.
-- CSV import/export and reporting.
+### P1 — only after repeated use
+- Structured content brief editor.
+- Versioned prompt library and reusable creative templates.
+- Batch generation assistance with per-asset review states.
+- Campaign/product catalog.
+- CSV import/export of authorized partner reports.
+- Simple performance dashboard based only on source-provided metrics.
+- Creator application and approval workflow.
 
 ### P2 — only if justified
-- Merchant portal.
-- Affiliate-specific links generated from verified partner integrations.
-- Automated conversion reconciliation.
-- Commission ledger and payout status sourced from partner reports.
-- Campaign matching and recommendation.
-- API integrations.
+- Authorized platform/affiliate integrations.
+- AI-assisted product matching.
+- Multi-user workspace and role permissions.
+- Scheduled publishing only through official supported integrations and after explicit approval.
+- Partner report reconciliation and audit trail.
 
-## 9. Data model (conceptual)
+## 7. Content quality gate
 
-- **Merchant:** id, name, contact, verification_status, terms_url, created_at.
-- **Product:** id, merchant_id, name, category, description, evidence/source links, destination_url, status, last_verified_at.
-- **Campaign:** id, product_id, title, brief, audience_fit, commission_type, commission_value, eligibility, start_at, end_at, payout_terms, tracking_source, status, terms_version.
-- **Affiliate:** id, display_name, contact, channels, niche, application_status, consent_records.
-- **Application:** id, affiliate_id, campaign_id, status, reviewed_at, notes.
-- **Asset:** id, campaign_id, type, url, license/usage terms.
-- **TrackingRecord:** id, campaign_id, source, period, clicks, conversions, commission_reported, status, imported_at.
-- **AuditEvent:** actor, action, entity, timestamp, change summary.
+Every creative must pass:
+1. **Fact check:** each product claim is supported by an identified source.
+2. **Visual fidelity:** generated imagery does not misrepresent the real item, packaging, size, use, or outcome.
+3. **Experience honesty:** no fabricated first-person use, review, unboxing, or testimonial.
+4. **Rights:** product assets, music, likeness, logos, fonts, and clips have a permitted use basis.
+5. **Disclosure:** affiliate/sponsored relationship is clear where required.
+6. **Platform rules:** eligibility, AI/synthetic-media labeling, link placement, branded content, and content policies checked for the target account and channel.
+7. **CTA and link:** destination works and matches the described product.
+8. **Human approval:** named operator approves before publishing.
 
-Do not collect identity documents or tax data in the MVP unless a real partner/payout requirement makes them necessary and an appropriate secure process exists.
+## 8. Suggested data records
 
-## 10. Non-functional requirements
+- Product: id, name, merchant, official_url, category, status, source_pack, claim_risk, rights_notes, last_verified_at.
+- AffiliateProgram: product_id, platform, eligibility_evidence, allowed_channels, link, commission_terms, attribution_source, payout_owner, cancellation_rules, verified_at.
+- CreativeBrief: id, product_id, audience_hypothesis, angle, hook, format, CTA, disclosure_plan, status.
+- Asset: id, brief_id, asset_type, source_or_generation_method, prompt_version, rights_status, review_status, reviewer, approved_at.
+- Post: asset_id, platform, account, published_url, published_at, disclosure_check, status.
+- MetricSnapshot: post_id, period, metric_name, value, source, captured_at.
+- Incident: asset_id, type, severity, resolution, date.
+- AuditEvent: actor, action, entity, timestamp, change summary.
 
-- Mobile-first, low-bandwidth friendly.
-- Clear Indonesian language; accessible contrast and keyboard navigation.
-- Secure handling of forms and secrets.
-- No secret API keys in frontend code or repository.
-- Minimize personal data; define retention and deletion process.
-- Accessible support and clear error states.
-- Campaign terms are versioned or archived so historical rules remain understandable.
-- No reliance on GitHub Actions; deployment can be configured through the chosen host's supported integration or manual process.
+Avoid collecting personal data that is not needed. Do not store passwords, session cookies, OTPs, or API secrets in content records or Git.
 
-## 11. Trust, safety, and compliance
+## 9. Success metrics
 
-- No income guarantees or fabricated proof.
-- Clearly identify affiliate/sponsored content.
-- Follow the rules of each affiliate platform and merchant.
-- Reject counterfeit, illegal, unsafe, misleading, or unsupported products/claims.
-- Keep product creator, seller, marketplace, and affiliate roles distinct.
-- Do not imply KURALIVO itself sold, shipped, or endorsed a product beyond the evidence.
-- Establish privacy, terms, affiliate disclosure, campaign terms, and complaint handling before launch.
-- Have local legal/accounting advice review the actual operating and payment arrangement before scaling.
+- Time from verified product brief to approved creative.
+- First-review pass rate and correction rate.
+- Number of original approved/published creatives.
+- Reach and watch/retention metrics where the platform provides them.
+- Outbound clicks from a named source.
+- Confirmed conversions and reported commission from authorized partner data.
+- Broken links, complaints, policy strikes, corrections, and takedowns.
+- Cost per approved creative and repeatable format rate.
 
-## 12. Success metrics
+AI asset count and raw views are not proof of revenue.
 
-North-star candidate: **number of active campaigns with at least one qualified affiliate action and verifiable performance evidence**.
+## 10. Acceptance criteria
 
-Supporting measures:
-- Qualified merchant leads.
-- Approved campaigns.
-- Affiliate applications and approval rate.
-- Active affiliates per campaign.
-- Valid outbound clicks from the available source.
-- Confirmed conversions and reported commission, when supplied by the partner.
-- Broken-link rate.
-- Dispute/complaint rate.
-- Time to launch a campaign.
-- Creator repeat participation.
+- Product facts and affiliate eligibility are sourced and dated.
+- No monetized promotion begins before program terms and account eligibility are verified.
+- Every published asset has a recorded human approval.
+- Affiliate disclosure and link destination are checked.
+- Every performance number names its source and period.
+- Unverified conversion, commission, or payout claims are not displayed.
+- A pilot closeout records evidence, uncertainty, costs, and next experiment.
 
-Do not use registered accounts or raw page views as proof of business success.
+## 11. Open decisions
 
-## 13. Acceptance criteria for pilot
-
-- At least one merchant/product has verified terms and a functioning destination.
-- Campaign terms and affiliate disclosure are visible before promotion.
-- At least three creators are invited or approved for the pilot (participation is not assumed).
-- Every reported metric has a named source and period.
-- A user can ask for help through a monitored channel.
-- No unverified claims about commission, tracking, or payout are displayed.
-- A manual closeout report records outcomes and unresolved questions.
-
-## 14. Open decisions
-
-- First micro-category.
-- Merchant of record and contracting entity.
-- Whether commission is paid by merchant/platform directly or shared by contract.
-- Attribution and reporting source.
-- Affiliate eligibility and content review rules.
-- Hosting, form handling, analytics, and retention choices.
+- First product micro-category.
+- Initial platform and affiliate eligibility path.
+- Approved AI image/video/voice tools available at zero cost.
+- Whether product assets can be licensed or must be generated from text/owned assets.
+- Hosting and content storage.
+- Which metrics can actually be accessed without paid APIs.
