@@ -1,83 +1,67 @@
-# Roadmap & Metrics — KURALIVO AI-First Affiliate Content Engine
+# KURALIVO Roadmap & Metrics
 
-## Phase 0 — verify the pathway
-- Select one micro-category and a small candidate set.
-- Check current official affiliate terms, country/account eligibility, permitted channels, disclosure rules, and link access.
-- Confirm product truth, merchant reliability, fulfillment, commission source, and asset rights.
-- Build the evidence-pack template and content quality gate.
+## Phase 0 — account and offer readiness
+- Inspect current TikTok account and in-app Affiliate/Shop access.
+- Confirm account-specific eligibility, verification, follower/activity requirements, allowed formats, and link placement.
+- Select one physical-product micro-category.
+- Verify a small candidate set: merchant, product facts, returns, affiliate terms, approved assets and risks.
 
-**Exit gate:** at least one product has a verified and usable affiliate pathway, or the project records that monetized promotion must wait.
+**Exit gate:** one valid, usable affiliate pathway—or a clearly recorded blocker. Do not claim links/commissions are active without confirmation.
 
-## Phase 1 — manual AI content experiment
-- Generate a limited batch of original faceless-first concepts.
-- Create scripts, storyboards, captions, and visual prompts with AI.
-- Review every asset for truth, rights, visual fidelity, disclosure, and platform rules.
-- Publish manually only if eligible; otherwise use only lawful, non-monetized educational tests that do not imply an active affiliate offer.
-- Record source metrics and operator time.
+## Phase 1 — KURALIVO content brand
+- Establish a clear content identity and repeatable faceless-first formats.
+- Generate scripts, storyboards, visual assets, captions and voice-over drafts with AI.
+- Human-review every final rendered asset.
+- Publish manually only when account/program eligibility permits.
+- Keep costs near zero: no paid ads, inventory, or new subscriptions without explicit approval.
 
-**Exit gate:** a documented batch with approved assets, observed distribution data, and no unresolved serious compliance issue.
+**Exit gate:** a documented batch of original content, quality-review results, and real source metrics.
 
-## Phase 2 — repeatable creative system
-- Keep the best-supported content formats and retire weak or risky ones.
-- Version prompt templates and briefs.
-- Add a lightweight content calendar, product register, asset library, and results tracker.
-- Test digital-product content as a second product category when legitimate affiliate terms or a clear owned-product arrangement exists.
+## Phase 2 — content and affiliate validation
+- Test a small number of products and distinct creative angles.
+- Track reach, watch metrics where available, clicks, partner-reported orders, confirmed conversions and commission status separately.
+- Review weekly; change one main variable at a time.
+- Stop or replace offers with poor evidence, unclear terms, or compliance risk.
 
-**Exit gate:** repeatable improvement in production effort or content performance supported by observed data—not just more generated assets.
+**Exit gate:** evidence-supported content/product patterns. A specific number of views or sales is not guaranteed.
 
-## Phase 3 — curated creator pilot
-- Invite a small number of creators after one genuine campaign and the content workflow are validated.
-- Share verified briefs, approved assets, disclosure guidance, and clear terms.
-- Gather creator feedback and actual partner-reported results.
+## Phase 3 — internal AI Content Engine
+Only after repeated manual steps:
+- product evidence pack;
+- prompt library and versioned creative templates;
+- batch drafting with human approval;
+- asset library, content calendar, results tracker;
+- performance summaries based on actual source data.
 
-**Exit gate:** evidence of creator usage, campaign participation, and a reliable reporting process.
+**Exit gate:** measurable reduction in production time or a repeatable improvement supported by observed data.
 
-## Phase 4 — lightweight platform
-Only after repeated manual friction:
-- Content brief workspace.
-- Product/campaign directory.
-- Asset and prompt library.
-- Creator applications and campaign status.
-- Authorized partner report import.
-- Role permissions and audit trail.
+## Phase 4 — digital products and creator pilot
+- Add digital products with legitimate affiliate terms or clear ownership rights.
+- Consider packaging templates and prompts as HOLBERY digital products.
+- Invite a small creator pilot only after the process works and terms are transparent.
 
-## Phase 5 — authorized automation
-Only if supported by official integrations and the business case:
-- Authorized affiliate/platform data integrations.
-- AI-assisted creative variations with mandatory review.
-- Approved scheduling/publishing workflow.
-- Report reconciliation and alerting.
-
-Do not build custom checkout, wallet, payout processing, autonomous posting, or unsupported attribution as part of the early roadmap.
+## Phase 5 — optional creator-facing platform
+Build a KURALIVO workspace, campaign directory or creator tool only if creators show repeated need and the value proposition is validated. Use authorized integrations and explicit approvals. No autonomous posting by default.
 
 ## Core metrics
-
-- Verified offers and percentage passing the product gate.
-- Time from evidence pack to approved creative.
-- First-review pass rate, correction rate, and cost per approved creative.
-- Original content published per week.
-- Reach, watch/retention where available, outbound clicks.
-- Confirmed conversions and reported commission from an authorized source.
-- Broken-link rate, complaints, takedowns, policy incidents.
-- Repeatability of creative formats and creator retention later.
+- Account eligibility and verified affiliate offers.
+- AI creatives generated, human-approved and published.
+- First-review pass rate and correction rate.
+- Time/cost per approved creative.
+- Reach, watch/retention where available, clicks.
+- Confirmed conversions and commission from official partner data.
+- Broken links, complaints, takedowns, policy issues.
+- Repeatable content patterns and later creator usage.
 
 ## Weekly review
+1. What did we verify?
+2. What was published?
+3. Which metrics came from an actual platform or partner?
+4. What is observed versus hypothesized?
+5. Which creative angle merits another test?
+6. What failed review or triggered a correction?
+7. Did spend remain within the approved budget?
+8. What is the next smallest useful experiment?
 
-1. Which product facts and terms were verified?
-2. Which assets passed or failed review, and why?
-3. What content was actually published?
-4. Which metrics came from the platform or partner?
-5. Did clicks, conversions, or commission change—and can the source verify it?
-6. What did each approved creative cost in time and money?
-7. Did any policy, rights, disclosure, or customer-trust issue occur?
-8. What single variable should be tested next?
-
-## Spend guardrails
-
-Until evidence supports demand:
-- No paid ads.
-- No inventory purchase.
-- No paid creator seeding.
-- No new subscription/API spend without explicit approval.
-- Prefer existing free tools and official affiliate programs, verifying current terms.
-- Never claim that a domain, account, integration, campaign, or automation is live unless independently confirmed.
+## Status discipline
+A repo change is not a live deployment. A TikTok account is not affiliate-approved until confirmed in-app. Generated content is not proof of product performance. Clicks are not sales, and reported commission is not necessarily a completed payout.
