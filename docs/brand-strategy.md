@@ -2,9 +2,9 @@
 
 ## Decision
 
-KURALIVO launches as an **AI-powered affiliate content brand**, not as a software product on day one. It will create helpful, faceless-first short-form content to promote third-party products, beginning with physical products through official affiliate programs. AI is the production engine behind the brand. A creator-facing AI Content Engine is a later product possibility, earned through evidence.
+KURALIVO is an **internal AI Content Engine**, not the public affiliate account and not a public SaaS product on day one. It supports useful, faceless-first marketing content for a separate affiliate account whose name will be chosen later. The engine handles research, scripts, storyboards, visual direction, voice-over, captions, review, and learning from real performance.
 
-**Sequence:** content brand → eligibility and affiliate setup → first real content tests → repeatable workflow → optional creator tool.
+**Sequence:** internal engine workflow → choose a separate affiliate account name → verify eligibility and offers → publish real content tests → improve engine from evidence.
 
 ## Positioning
 
@@ -16,8 +16,9 @@ KURALIVO helps viewers discover products through clear explanations, use-case co
 
 - **HOLBERY:** parent and product factory; builds digital products and systems.
 - **AMARIFA:** proposed discovery/promotion direction focused on digital solutions.
-- **KURALIVO:** content brand and affiliate operator for physical products first, then eligible digital products; AI is the creative-production method.
-- A future **KURALIVO AI Content Engine** may help creators reproduce the validated workflow.
+- **KURALIVO:** internal AI content-production engine; not the affiliate account.
+- **Separate affiliate account (name TBD):** public-facing account for publishing content and promoting eligible products.
+- A public KURALIVO creator tool is a future option only if real evidence justifies it.
 
 AMARIFA remains a proposed direction pending independent name/domain/trademark verification. Bozq One System stays private and separate.
 
@@ -49,9 +50,10 @@ Preferred formats:
 
 Human review of the final rendered asset remains mandatory.
 
-## TikTok-first path
+## Separate affiliate account path
 
-1. Check the current TikTok account and in-app Affiliate/Shop access. Requirements may vary by account type, location, and feature; use the user's own in-app eligibility display as the operational source.
+1. Choose a distinct name for the public affiliate account; do not force KURALIVO to serve as that account.
+2. Check the new TikTok account and in-app Affiliate/Shop access. Requirements may vary by account type, location, and feature; use the account's own in-app eligibility display as the operational source.
 2. Confirm age/identity verification, follower or activity thresholds, account standing, and any required setup.
 3. Verify each product and seller, allowed promotion format, commission/attribution terms, payout rules, and link destination.
 4. Generate original content from a product evidence pack.
@@ -90,8 +92,8 @@ Before every publication:
 
 ## Validation milestones
 
-### Stage 1 — setup
-Verify account eligibility, choose one micro-category, shortlist a few offers, and create the prompt/checklist workflow.
+### Stage 1 — engine and account separation
+Define KURALIVO's reusable production workflow. Separately choose a name for the public affiliate account, then verify eligibility, choose one micro-category, and shortlist a few offers.
 
 ### Stage 2 — content experiments
 Produce a small batch of original videos and publish manually where permitted. Track source metrics and production time. Do not buy inventory or paid tools.
@@ -99,11 +101,11 @@ Produce a small batch of original videos and publish manually where permitted. T
 ### Stage 3 — repeatability
 Identify which product angles and creative formats have actual evidence of useful reach, clicks, or conversions. Reproduce only what the data supports.
 
-### Stage 4 — engine
-Turn proven repetitive steps into a documented internal AI workflow, templates, prompt library, and lightweight tracker.
+### Stage 4 — engine improvement
+Turn repeated steps into better templates, prompt versions, evidence packs, and a lightweight tracker. KURALIVO starts as the engine; no need to wait to name it as one.
 
 ### Stage 5 — creator product (optional)
-Only if creators express a real need and the workflow is proven, explore a KURALIVO creator tool, campaign directory, or content workspace.
+Only if creators express a real need and the workflow is proven, explore a public KURALIVO creator tool or workspace.
 
 ## Metrics
 
