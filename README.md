@@ -1,71 +1,96 @@
 # KURALIVO
 
-**AI-made content. Human-checked claims. Better product discovery.**
+**AI-powered affiliate content. Built to learn what sells.**
 
-KURALIVO is an **AI-first affiliate content engine** designed to help turn verified product information into useful short-form marketing content, starting with physical products and expanding to digital products. The first operating mode is faceless-first: AI helps research, script, storyboard, generate permitted visuals/voice, repurpose, and evaluate content. Human review remains mandatory for product facts, rights, platform rules, affiliate eligibility, and publication.
+KURALIVO starts as a public-facing short-form content brand focused on discovering and promoting useful physical products through eligible affiliate programs. AI is the core creative production method: research synthesis, hooks, scripts, storyboards, visual generation, voice-over, captions, editing support, and performance analysis. The initial style is **faceless-first**; showing a human face is optional.
 
-## Ecosystem architecture
+The longer-term ambition is to turn the repeatable workflow into a KURALIVO AI Content Engine. We will not build a full platform before the content and sales process produces evidence.
 
-- **HOLBERY — Parent & Product Factory:** builds and manages digital products, systems, and product standards.
-- **AMARIFA — Digital Discovery & Promotion Direction:** helps people discover relevant digital solutions and supports product discovery/promotion.
-- **KURALIVO — AI Affiliate Content Engine:** connects physical-first affiliate offers and later digital offers with AI-assisted content production, campaign rules, official affiliate links, and evidence-based learning.
+## Strategic decision
 
-Target flow: verify an eligible product → research buyer problem and product evidence → generate content concepts/assets → review claims, rights, and platform compliance → publish only on approved channels → use official affiliate links when eligible → measure available outcomes → improve the next creative.
+**Content brand first → affiliate sales proof → repeatable AI workflow → creator-facing engine later.**
 
-AMARIFA is a proposed ecosystem direction; verify name/domain/trademark availability before public launch.
+The first goal is not to sell AI software. It is to run a focused TikTok content account, verify affiliate eligibility, publish compliant original content, and learn from real data. If TikTok Shop Affiliate access is not yet available, build the content habit and audience without pretending shoppable links or commissions are active. Any alternative affiliate link must be allowed by the platform and the relevant program.
 
-## Positioning
+## Ecosystem roles
 
-**From product to content. From content to a measurable sales opportunity.**
+- **HOLBERY — Parent & Product Factory:** builds digital products, systems, and product standards.
+- **AMARIFA — Digital Discovery & Promotion Direction:** proposed direction for discovery and promotion of relevant digital solutions; name/domain/trademark checks remain separate.
+- **KURALIVO — AI-Powered Affiliate Content Brand:** promotes third-party products first, beginning with physical products, using AI-driven creative production. Over time it may package the proven workflow into a content engine for other creators.
 
-KURALIVO is not initially a custom checkout, affiliate payout wallet, or open marketplace. It begins as an AI-assisted content operation and manual affiliate pilot. Start with physical products available through legitimate affiliate programs; add digital products when an authorized affiliate program or a clearly defined owned-product arrangement exists.
+Bozq One System remains private and separate.
 
-## Core product principles
+## Content positioning
 
-1. AI-first and faceless-first, not AI-only-at-any-cost. Use the most practical generation workflow, but do not publish unchecked output.
-2. No invented hands-on experience, testimonials, product features, prices, discounts, stock, sales, commissions, or earnings.
-3. Use only authorized product images, clips, logos, product feeds, or AI-generated visuals that do not misrepresent the actual item.
-4. Label synthetic or altered media when platform rules or local law require it; never use a fake person to imply a real customer endorsement.
-5. Use official affiliate links and follow each program's current eligibility, content, disclosure, and attribution rules. Do not assume every platform allows a zero-follower account to use every affiliate feature.
-6. Separate views, reach, clicks, reported orders, confirmed conversions, reported commission, and completed payouts.
-7. Start with a small test portfolio and no paid ads. Scale only when actual evidence supports it.
-8. Do not scrape private communities, bypass platform restrictions, spam comments/DMs, or repost other creators' work without permission.
-9. Protect credentials, personal data, and API keys; never put secrets in frontend code or this repository.
-10. Bozq One System remains private and separate from this ecosystem.
+KURALIVO is a helpful product-discovery brand, not a generic AI-video spam account. Every post should answer a specific buyer question, show a product accurately, compare choices fairly, or explain a use case. AI speeds up production; product truth earns trust.
 
-## Initial AI content workflow
+## TikTok-first operating plan
 
-1. **Product Gate:** verify merchant, product, audience, official program, eligibility, commission basis, permitted channels, and destination.
-2. **Evidence Pack:** collect reliable product facts, approved claims, limitations, current price/source/date if relevant, and rights-cleared assets.
-3. **Creative Brief:** define one audience problem, one content angle, hook, proof, CTA, format, and intended platform.
-4. **Generate:** produce scripts, storyboard, captions, visual prompts, voice-over, and edits using available tools.
-5. **Quality Gate:** review factual accuracy, visual fidelity, rights, disclosure, synthetic-media policy, and platform rules.
-6. **Publish & Learn:** publish only when the account/program is eligible; record post URL, format, date, source metrics, clicks, and verified results.
-7. **Iterate:** make variations from observed performance, not fabricated success claims.
+1. Inspect TikTok account status and the currently available Shop/Affiliate entry path inside the user's own app.
+2. Verify the current country/account-specific eligibility requirements, identity/age checks, allowed link placements, and any follower threshold shown by TikTok.
+3. Choose one low-risk product micro-category and shortlist products from reliable merchants.
+4. Verify each offer, product facts, permitted assets, commission terms, and link access before monetized promotion.
+5. Create original faceless-first content with AI; human-review the final render.
+6. Publish manually, track real reach/click/conversion data, and improve one creative variable at a time.
+7. Build a reusable internal AI workflow after the first repeatable patterns emerge.
+8. Consider a creator-facing content engine only after the internal process is useful and repeatable.
 
-## MVP scope
+## AI content principles
 
-- Manual product and campaign research.
-- Content brief and generation prompt library.
-- Faceless short-video workflow.
-- Human approval checklist.
-- Official affiliate link registry.
-- Content and results tracker.
-- Digital-product support as a second category.
-- No custom checkout, wallet, payout processing, autonomous posting, or unverified conversion attribution.
+- AI can generate scripts, storyboards, voice-over drafts, graphics, backgrounds, and video elements.
+- Product depictions must match the real item and its official listing. Never generate nonexistent features, fake product results, fabricated unboxing, testimonials, or false firsthand use.
+- Use merchant-approved assets or assets with documented rights. AI output does not automatically clear copyright, trademark, music, or likeness rights.
+- Apply the platform's current AI-generated-content disclosure rules when required.
+- Use affiliate disclosure and follow all current program/platform rules.
+- No mass posting, fake engagement, spam, misleading urgency, or unverified earnings claims.
+- Human review is required before publishing in the initial phase.
+
+## Initial MVP (no-code/manual)
+
+- One TikTok content account.
+- One micro-category.
+- A small verified product shortlist.
+- AI prompt library for research, scripts, visuals, captions, and review.
+- Human quality gate.
+- Manual content calendar and publication log.
+- Link/eligibility register.
+- Simple results tracker based on platform and affiliate-partner data.
+
+No custom checkout, wallet, payout processing, autonomous publishing, paid ads, inventory purchase, or paid subscriptions in the initial validation phase.
+
+## When KURALIVO becomes an engine
+
+Only after evidence of a repeatable content process:
+- Versioned prompts and creative templates.
+- Product evidence packs.
+- Batch draft generation with approval gates.
+- Creator workspace or campaign catalog if users need it.
+- Authorized platform/affiliate reporting integrations where available.
+
+## Metrics
+
+Track the stages separately:
+- Account and affiliate eligibility status.
+- Approved product offers.
+- AI creatives generated and human-approved.
+- Published posts, reach/views, watch metrics when available.
+- Outbound clicks where measurable.
+- Partner-reported orders and confirmed conversions.
+- Commission status from the official source.
+- Production time, correction rate, complaints, and policy incidents.
+
+Views are not sales; clicks are not confirmed conversions; reported commission is not necessarily paid commission.
 
 ## Repository guide
 
 - [Brand strategy](docs/brand-strategy.md)
-- [AI Content Engine & operating model](docs/ai-content-engine.md)
+- [AI Content Engine operating model](docs/ai-content-engine.md)
 - [Content workflow and prompt library](docs/content-workflow-and-prompts.md)
 - [PRD 0.1](docs/prd-0.1.md)
-- [Roadmap & metrics](docs/roadmap-and-metrics.md)
+- [Roadmap and metrics](docs/roadmap-and-metrics.md)
 
-## Current status
+## Status and domain
 
-This repository contains strategy and prototype website code. It does **not** mean the domain is connected, a site is deployed, an affiliate account is eligible/approved, products or campaigns are verified, or AI publishing automation is live. Verify every program and campaign before promoting.
+Domain plan: https://kuralivo.biz.id
 
-## Domain plan
-
-https://kuralivo.biz.id
+This repository contains strategy and prototype code. It does not prove the domain is connected, the account is approved, a product offer is eligible, an affiliate link works, automation is live, or revenue has been earned. Verify each item independently before representing it as active.
