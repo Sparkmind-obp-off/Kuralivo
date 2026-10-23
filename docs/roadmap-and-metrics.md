@@ -1,77 +1,83 @@
-# Roadmap & Metrics — KURALIVO / AMARIFA / HOLBERY
+# Roadmap & Metrics — KURALIVO AI-First Affiliate Content Engine
 
-## Phase 0 — strategy and evidence
-Deliverables:
-- Ecosystem charter and brand role boundaries.
-- Research log with sources and uncertainty.
-- One micro-category selection.
-- Merchant and creator interview scripts.
-- Campaign terms template.
+## Phase 0 — verify the pathway
+- Select one micro-category and a small candidate set.
+- Check current official affiliate terms, country/account eligibility, permitted channels, disclosure rules, and link access.
+- Confirm product truth, merchant reliability, fulfillment, commission source, and asset rights.
+- Build the evidence-pack template and content quality gate.
 
-Exit gate: one real offer with confirmed terms and at least a small pool of qualified creator interest.
+**Exit gate:** at least one product has a verified and usable affiliate pathway, or the project records that monetized promotion must wait.
 
-## Phase 1 — concierge pilot (no platform complexity)
-Deliverables:
-- Public landing page and interest forms.
-- One verified campaign page.
-- Manual approval, asset delivery, and performance log.
-- One closeout report.
+## Phase 1 — manual AI content experiment
+- Generate a limited batch of original faceless-first concepts.
+- Create scripts, storyboards, captions, and visual prompts with AI.
+- Review every asset for truth, rights, visual fidelity, disclosure, and platform rules.
+- Publish manually only if eligible; otherwise use only lawful, non-monetized educational tests that do not imply an active affiliate offer.
+- Record source metrics and operator time.
 
-Exit gate: at least one campaign is actually promoted and performance can be reported from an identified source.
+**Exit gate:** a documented batch with approved assets, observed distribution data, and no unresolved serious compliance issue.
 
-## Phase 2 — lightweight self-service
-Only after the pilot shows repeated manual friction:
-- Campaign directory.
-- Affiliate application status.
-- Asset and link library.
-- Simple operator content management.
-- Basic partner-report import.
+## Phase 2 — repeatable creative system
+- Keep the best-supported content formats and retire weak or risky ones.
+- Version prompt templates and briefs.
+- Add a lightweight content calendar, product register, asset library, and results tracker.
+- Test digital-product content as a second product category when legitimate affiliate terms or a clear owned-product arrangement exists.
 
-Exit gate: repeat campaigns and recurring operational cost justify the build.
+**Exit gate:** repeatable improvement in production effort or content performance supported by observed data—not just more generated assets.
 
-## Phase 3 — connected platform
-Only after multiple campaigns and reliable partners:
-- Merchant workspace.
-- Affiliate dashboard.
-- Verified partner integrations.
-- Automated report reconciliation.
-- Role-based permissions and audit trail.
+## Phase 3 — curated creator pilot
+- Invite a small number of creators after one genuine campaign and the content workflow are validated.
+- Share verified briefs, approved assets, disclosure guidance, and clear terms.
+- Gather creator feedback and actual partner-reported results.
 
-Exit gate: integrations are available, legal/payment responsibilities are defined, and the business can support the system.
+**Exit gate:** evidence of creator usage, campaign participation, and a reliable reporting process.
 
-## Phase 4 — ecosystem expansion
-- AMARIFA catalog and seller promotion workflows.
-- HOLBERY-owned product launches.
-- Cross-brand campaign operations and portfolio reporting.
-- New categories only when existing category playbooks are repeatable.
+## Phase 4 — lightweight platform
+Only after repeated manual friction:
+- Content brief workspace.
+- Product/campaign directory.
+- Asset and prompt library.
+- Creator applications and campaign status.
+- Authorized partner report import.
+- Role permissions and audit trail.
 
-## Metric definitions
+## Phase 5 — authorized automation
+Only if supported by official integrations and the business case:
+- Authorized affiliate/platform data integrations.
+- AI-assisted creative variations with mandatory review.
+- Approved scheduling/publishing workflow.
+- Report reconciliation and alerting.
 
-- Qualified merchant lead: a real, reachable business with a product and willingness to discuss terms.
-- Active campaign: campaign with verified product, destination, terms, and an open promotion period.
-- Active affiliate: approved affiliate who takes at least one campaign action during the defined period.
-- Valid click: count reported by the named tracking source, not inferred from page views.
-- Confirmed conversion: conversion status explicitly reported by an authorized source.
-- Reported commission: amount shown by the partner/platform; not necessarily payable until validation.
-- Payout completed: confirmation from the responsible payer, not an internal estimate.
+Do not build custom checkout, wallet, payout processing, autonomous posting, or unsupported attribution as part of the early roadmap.
+
+## Core metrics
+
+- Verified offers and percentage passing the product gate.
+- Time from evidence pack to approved creative.
+- First-review pass rate, correction rate, and cost per approved creative.
+- Original content published per week.
+- Reach, watch/retention where available, outbound clicks.
+- Confirmed conversions and reported commission from an authorized source.
+- Broken-link rate, complaints, takedowns, policy incidents.
+- Repeatability of creative formats and creator retention later.
 
 ## Weekly review
 
-1. What was published or activated?
-2. What evidence was observed?
-3. What was only assumed?
-4. Which step caused the most manual work?
-5. What did affiliates ask repeatedly?
-6. Did any trust, link, policy, or fulfillment issue occur?
-7. What is the single next experiment?
-8. What should be stopped?
+1. Which product facts and terms were verified?
+2. Which assets passed or failed review, and why?
+3. What content was actually published?
+4. Which metrics came from the platform or partner?
+5. Did clicks, conversions, or commission change—and can the source verify it?
+6. What did each approved creative cost in time and money?
+7. Did any policy, rights, disclosure, or customer-trust issue occur?
+8. What single variable should be tested next?
 
-## Spend policy
+## Spend guardrails
 
-Until demand and unit economics are supported by observed data:
+Until evidence supports demand:
 - No paid ads.
-- No custom app infrastructure.
 - No inventory purchase.
 - No paid creator seeding.
-- No subscription tooling unless owner explicitly approves.
-- Use existing official affiliate programs when practical; verify their current terms.
+- No new subscription/API spend without explicit approval.
+- Prefer existing free tools and official affiliate programs, verifying current terms.
+- Never claim that a domain, account, integration, campaign, or automation is live unless independently confirmed.
