@@ -1,38 +1,35 @@
-# KURALIVO — Internal AI Content Engine
+# KURALIVO — AI Content Workflow + Remote MCP
 
-**KURALIVO is an internal AI-assisted content-production engine in the HOLBERY ecosystem.** It helps turn verified product and audience context into useful, reviewed, ready-to-publish content packages. The public affiliate account will be separate and its name is TBD.
+**KURALIVO is a lightweight AI-assisted content workflow in the HOLBERY ecosystem.** It is being shaped as a chat-callable toolset, not a new general-purpose AI platform. Heavy model inference and unrelated integrations should remain with mature external providers wherever possible.
+
+## Try the browser prototype
+- [Open Kuralivo Prompt Studio](workspace.html) — browser-only prompt builder. It does not call a model or save data to a server.
+
+## Remote MCP worker
+- [MCP Worker implementation and setup](mcp-worker/README.md)
+- Source: [mcp-worker/src/index.ts](mcp-worker/src/index.ts)
+
+The first remote MCP prototype exposes:
+- `kuralivo_status`
+- `create_content_brief`
+- `build_content_prompt`
+- `content_review_checklist`
+
+The worker is designed to run in Cloudflare's hosted environment, so the deployed service does not require a dedicated desktop or extra local device. A compatible chat/agent host is still needed to connect to a remote MCP endpoint. The host/provider is responsible for model execution; Kuralivo's prompt tool does not itself call a model.
+
+**Important:** the Worker has been added to the repository but has not been verified as built, deployed, authenticated, or connected to a live host. The initial endpoint has no OAuth or per-user access control and exposes only content utility tools. Do not treat it as production-ready until authentication, host compatibility, live MCP tool calls, and abuse controls have been tested.
 
 ## Product direction
-Evidence-first content workflow → separate public publishing account → real content experiments → improve the engine from measured results. Public SaaS, marketplace, billing, autonomous publishing, and creator-facing features are deferred until real usage justifies them.
+Keep Kuralivo small:
+1. Kuralivo provides focused content tools and reusable workflows.
+2. Connect mature external MCP providers directly in the chat host when supported.
+3. Add a Kuralivo gateway/proxy only if real integration constraints make direct connections insufficient.
+4. Do not build multi-model hosting, a universal connector registry, billing, or a giant internal AI stack before validated need.
 
-## Try the first prototype
-- [Open Kuralivo Prompt Studio](workspace.html) — a lightweight, browser-only MVP that turns a short product brief into a reusable AI prompt. It does not call an AI model or save data to a server; copy the prompt into Genspark or another generator.
+## Evidence-first operating loop
+Brief → verified facts → content draft → human review → manual publication → record real source metrics → improve the next experiment.
 
-## Start here
-- [Vision, mission & product thesis](docs/vision-mission.md)
-- [Product principles & scope](docs/product-principles.md)
-- [PRD 1.0](docs/prd-1.0.md)
-- [User personas & journeys](docs/user-personas-and-journeys.md)
-- [Information architecture](docs/information-architecture.md)
-- [UI/UX design system](docs/ui-ux-design-system.md)
-- [Screen specifications](docs/ui-screen-specs.md)
-- [System design](docs/system-design.md)
-- [Data model](docs/data-model.md)
-- [AI content pipeline](docs/ai-content-pipeline.md)
-- [Prompt library](docs/prompt-library.md)
-- [Analytics & experiments](docs/analytics-experiments.md)
-- [Security, privacy & compliance](docs/security-privacy-compliance.md)
-- [Operations runbook](docs/operations-runbook.md)
-- [Architecture decisions](docs/architecture-decisions.md)
-- [Release & testing plan](docs/release-and-testing.md)
-- [Glossary](docs/glossary.md)
-- [Brand strategy](docs/brand-strategy.md)
-- [Roadmap & metrics](docs/roadmap-and-metrics.md)
-
-## First operating loop
-Brief → evidence pack → creative plan → AI drafts → human review → export → manual publishing through the separate account → record source metrics → choose the next experiment.
-
-## Operating guardrails
+## Guardrails
 - AI output is a draft, not evidence or approval.
 - Never fabricate product features, prices, results, testimonials, scarcity, personal use, commissions, or earnings.
 - Track asset rights, source dates, and required disclosures.
@@ -42,9 +39,6 @@ Brief → evidence pack → creative plan → AI drafts → human review → exp
 
 ## Ecosystem
 - HOLBERY: parent and product factory.
-- KURALIVO: internal content engine.
+- KURALIVO: content workflow and MCP toolset.
 - Separate affiliate account: public distribution and monetization channel; name TBD.
 - Bozq One System remains private and separate.
-
-## Status
-These documents define product intent and proposed behavior; they are not proof that a SaaS app, AI integration, database, domain connection, or deployment exists. Check the implementation and live service independently.
