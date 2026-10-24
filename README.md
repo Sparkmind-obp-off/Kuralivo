@@ -5,6 +5,9 @@
 ## Product direction
 Evidence-first content workflow → separate public publishing account → real content experiments → improve the engine from measured results. Public SaaS, marketplace, billing, autonomous publishing, and creator-facing features are deferred until real usage justifies them.
 
+## Try the first prototype
+- [Open Kuralivo Prompt Studio](workspace.html) — a lightweight, browser-only MVP that turns a short product brief into a reusable AI prompt. It does not call an AI model or save data to a server; copy the prompt into Genspark or another generator.
+
 ## Start here
 - [Vision, mission & product thesis](docs/vision-mission.md)
 - [Product principles & scope](docs/product-principles.md)
