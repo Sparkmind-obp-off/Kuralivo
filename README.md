@@ -2,12 +2,19 @@
 
 **KURALIVO is a lightweight AI Content Journey & Production Workspace in the HOLBERY ecosystem.** It turns a real product, idea, or marketing goal into an evidence-backed journey of content assets—from research and planning through production, review, publishing, and measurement. It is not intended to be a new general-purpose AI platform.
 
-## Workspace v0.2 (Hono + Cloudflare Pages) — status
+## URLs
+- **Production**: https://kuralivo.pages.dev
+- **Profil ChatGPT**: https://kuralivo.pages.dev/api/chatgpt-profile
+- **OpenAPI (GPT Action)**: https://kuralivo.pages.dev/openapi.json · Privasi: https://kuralivo.pages.dev/privacy
+- **GitHub**: https://github.com/Sparkmind-obp-off/Kuralivo
+
+## Workspace v0.3 (Hono + Cloudflare Pages) — status
 | Item | Status |
 |---|---|
 | Workspace web app (7 langkah) | **Implemented & tested locally** (sandbox `wrangler pages dev`) |
 | Push ke GitHub `Sparkmind-obp-off/Kuralivo` | Lihat riwayat commit `main` |
-| Deploy Cloudflare Pages (BYOK) | **Belum** — menunggu Cloudflare API token di panel Deploy |
+| Deploy Cloudflare Pages (BYOK) | **Live** — project `kuralivo`, diverifikasi dengan curl 2026-10-24 |
+| Profil ChatGPT (Custom GPT, Custom Instructions, OpenAPI Action) | **Implemented** — harus ditempel manual di ChatGPT; belum diuji dari GPT Builder |
 | Model AI / akun eksternal / auto-publish | **Tidak ada** (by design) |
 | Penyimpanan server | **Tidak ada** — data hanya di localStorage browser + export/import JSON |
 
@@ -19,7 +26,8 @@
 5. **Review gate** — status `Ready` / `Needs evidence` / `Needs human review`; cek bukti tanpa sumber, data harga/stok basi (>14 hari), aset memakai hipotesis/unknown, disclosure affiliate, frasa berisiko (jaminan, superlatif, urgensi palsu, klaim kesehatan/penghasilan, testimoni, klaim pengalaman pribadi), hak aset, aksesibilitas; plus checklist manual.
 6. **Prompt builder** — prompt untuk model eksternal yang hanya mengizinkan fakta dari ledger; opsional menyertakan master system prompt.
 7. **Ukur & belajar** — catat metrik aktual + sumber + jendela waktu; diagnosis titik friksi (retensi, pemahaman, CTA, konversi) dengan caveat sampel kecil & non-kausal.
-8. Multi-proyek, export/import JSON, export laporan Markdown, contoh data **fiktif** berlabel.
+8. **Profil ChatGPT** — `/api/chatgpt-profile` (nama, deskripsi, instruksi GPT ±5.4k karakter, conversation starters, Custom Instructions ≤1.500 karakter), `/openapi.json` untuk GPT Actions, `/privacy`.
+9. Multi-proyek, export/import JSON, export laporan Markdown, contoh data **fiktif** berlabel.
 
 ### Entry URI
 | Path | Method | Keterangan |
@@ -54,7 +62,7 @@ npm run deploy:prod
 URL `*.pages.dev` baru dianggap live setelah output deploy & `curl` mengonfirmasinya.
 
 ### Belum diimplementasikan / langkah berikutnya
-- Deploy produksi (butuh API token).
+- Uji GPT Action dari ChatGPT GPT Builder (import `/openapi.json`) dan catat hasilnya.
 - Penyimpanan server (D1) & akun pengguna — hanya setelah workflow manual terbukti berguna.
 - Menghubungkan workspace ke MCP worker (`mcp-worker/`) dan menguji dengan satu host MCP.
 - Pilot dengan satu produk affiliate nyata (Phase 4 roadmap).

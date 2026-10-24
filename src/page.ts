@@ -50,7 +50,7 @@ tailwind.config={theme:{extend:{colors:{ink:'#17241e',deep:'#14231d',lime:'#d7f3
 
 <footer id="app-footer" class="max-w-7xl mx-auto px-4 py-8 text-xs text-gray-500 flex flex-wrap gap-4 justify-between">
   <span>Kuralivo · HOLBERY ecosystem · Draft AI bukan bukti atau persetujuan.</span>
-  <span class="flex gap-3"><a class="underline" href="/api/master-prompt" target="_blank" rel="noopener">Master prompt</a><a class="underline" href="/static/legacy/landing.html">Landing lama</a><a class="underline" href="/static/legacy/prompt-studio.html">Prompt Studio lama</a><a class="underline" href="/api/health" target="_blank" rel="noopener">Status API</a></span>
+  <span class="flex gap-3"><a class="underline" href="/api/chatgpt-profile" target="_blank" rel="noopener">Profil ChatGPT</a><a class="underline" href="/openapi.json" target="_blank" rel="noopener">OpenAPI (GPT Action)</a><a class="underline" href="/api/master-prompt" target="_blank" rel="noopener">Master prompt</a><a class="underline" href="/static/legacy/landing">Landing lama</a><a class="underline" href="/static/legacy/prompt-studio">Prompt Studio lama</a><a class="underline" href="/api/health" target="_blank" rel="noopener">Status API</a></span>
 </footer>
 
 <div id="toast" class="fixed bottom-4 left-1/2 -translate-x-1/2 bg-deep text-white text-sm px-4 py-2 rounded-lg shadow-lg hidden" role="status"></div>

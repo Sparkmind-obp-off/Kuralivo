@@ -9,8 +9,9 @@ import {
   type Project, type StageId,
 } from './lib/kuralivo'
 import { renderApp } from './page'
+import { chatgptProfile, openApiSchema } from './lib/chatgpt'
 
-const VERSION = '0.2.0'
+const VERSION = '0.3.0'
 const app = new Hono()
 
 app.use('*', secureHeaders({ crossOriginEmbedderPolicy: false }))
@@ -84,6 +85,10 @@ app.post('/api/diagnose', async (c) => {
 })
 
 app.get('/favicon.ico', (c) => c.redirect('/static/favicon.svg', 301))
+app.get('/api/chatgpt-profile', (c) => c.json(chatgptProfile(new URL(c.req.url).origin)))
+app.get('/openapi.json', (c) => c.json(openApiSchema(new URL(c.req.url).origin)))
+app.get('/privacy', (c) => c.html('<!doctype html><meta charset="utf-8"><title>Kuralivo — Privasi</title><body style="font-family:system-ui;max-width:680px;margin:40px auto;padding:0 16px;line-height:1.6"><h1>Kebijakan Privasi Kuralivo (prototype)</h1><p>API Kuralivo memproses data yang dikirim per permintaan untuk menghasilkan journey, brief, review, prompt, dan diagnosis. Data <b>tidak disimpan</b> di server dan tidak dikirim ke pihak ketiga. Workspace web menyimpan proyek hanya di localStorage browser Anda.</p><p>Cloudflare dapat mencatat metadata permintaan standar (mis. IP, waktu) sesuai kebijakan Cloudflare. Jangan kirim data pribadi sensitif atau rahasia.</p><p>Dokumen ini placeholder dan perlu ditinjau pemilik/legal sebelum penggunaan publik.</p><p><a href="/">Kembali</a></p></body>'))
+
 app.get('/', (c) => c.html(renderApp(VERSION)))
 
 app.all('/api/*', (c) => c.json({ error: 'Not found' }, 404))
