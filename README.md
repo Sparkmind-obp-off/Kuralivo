@@ -1,6 +1,64 @@
-# KURALIVO — AI Content Journey + Remote MCP
+# KURALIVO — AI Content Journey Workspace + Remote MCP
 
 **KURALIVO is a lightweight AI Content Journey & Production Workspace in the HOLBERY ecosystem.** It turns a real product, idea, or marketing goal into an evidence-backed journey of content assets—from research and planning through production, review, publishing, and measurement. It is not intended to be a new general-purpose AI platform.
+
+## Workspace v0.2 (Hono + Cloudflare Pages) — status
+| Item | Status |
+|---|---|
+| Workspace web app (7 langkah) | **Implemented & tested locally** (sandbox `wrangler pages dev`) |
+| Push ke GitHub `Sparkmind-obp-off/Kuralivo` | Lihat riwayat commit `main` |
+| Deploy Cloudflare Pages (BYOK) | **Belum** — menunggu Cloudflare API token di panel Deploy |
+| Model AI / akun eksternal / auto-publish | **Tidak ada** (by design) |
+| Penyimpanan server | **Tidak ada** — data hanya di localStorage browser + export/import JSON |
+
+### Fitur yang sudah selesai
+1. **Intake** — tujuan, aksi audiens, produk + URL listing, audiens, channel, format, tahap journey, bahasa/tone, batasan, deadline, metrik, toggle affiliate.
+2. **Evidence ledger** — 6 kelas bukti (terverifikasi, klaim penjual, independen, pengalaman langsung, hipotesis, belum diketahui), URL sumber, tanggal cek, caveat, panduan cara publikasi per kelas.
+3. **Journey & matriks konten** — Discover → Understand → Evaluate → Decide → After purchase; saran tahap dari intake; matriks pilar × tahap × pertanyaan × format × hook × bukti × CTA × metrik; tombol "Brief" per baris.
+4. **Brief produksi** — draft otomatis (hook, beat-by-beat, visual, teks layar, narasi, caption, CTA, disclosure, hak aset), tautan ke bukti, tanda "disetujui manusia".
+5. **Review gate** — status `Ready` / `Needs evidence` / `Needs human review`; cek bukti tanpa sumber, data harga/stok basi (>14 hari), aset memakai hipotesis/unknown, disclosure affiliate, frasa berisiko (jaminan, superlatif, urgensi palsu, klaim kesehatan/penghasilan, testimoni, klaim pengalaman pribadi), hak aset, aksesibilitas; plus checklist manual.
+6. **Prompt builder** — prompt untuk model eksternal yang hanya mengizinkan fakta dari ledger; opsional menyertakan master system prompt.
+7. **Ukur & belajar** — catat metrik aktual + sumber + jendela waktu; diagnosis titik friksi (retensi, pemahaman, CTA, konversi) dengan caveat sampel kecil & non-kausal.
+8. Multi-proyek, export/import JSON, export laporan Markdown, contoh data **fiktif** berlabel.
+
+### Entry URI
+| Path | Method | Keterangan |
+|---|---|---|
+| `/` | GET | Workspace (SPA, hash routes `#intake` `#evidence` `#journey` `#production` `#review` `#prompt` `#measure`) |
+| `/api/health` | GET | Status layanan (jujur: tanpa model/akun eksternal) |
+| `/api/library` | GET | Kelas bukti, tahap, pilar, format, pola hook, template disclosure |
+| `/api/master-prompt` | GET | Teks `docs/MASTER_SYSTEM_PROMPT.md` |
+| `/api/journey` | POST | `{intake, evidence, stages?}` → `{stages, matrix}` |
+| `/api/brief` | POST | `{intake, evidence, stage, format?}` → draft brief |
+| `/api/review` | POST | Project JSON → `{status, findings, summary}` |
+| `/api/prompt` | POST | `{project, assetId?, includeSystem?}` → `{prompt}` |
+| `/api/diagnose` | POST | Metrik → `{friction, caveats}` |
+| `/static/legacy/landing.html`, `/static/legacy/prompt-studio.html` | GET | Halaman lama (dipindah dari root) |
+
+### Data model
+`Project { intake, evidence[], stages[], assets[], metrics[] }` — lihat `src/lib/kuralivo.ts`. Logika deterministik, tanpa panggilan model, tanpa efek samping eksternal. Body API dibatasi 256KB.
+
+### Jalankan lokal
+```sh
+npm install
+npm run build
+npx wrangler pages dev dist --ip 0.0.0.0 --port 3000   # atau: pm2 start ecosystem.config.cjs
+```
+
+### Deploy (Cloudflare Pages, akun sendiri)
+```sh
+export CLOUDFLARE_API_TOKEN=...          # token dengan izin Cloudflare Pages: Edit
+npx wrangler pages project create kuralivo --production-branch main
+npm run deploy:prod
+```
+URL `*.pages.dev` baru dianggap live setelah output deploy & `curl` mengonfirmasinya.
+
+### Belum diimplementasikan / langkah berikutnya
+- Deploy produksi (butuh API token).
+- Penyimpanan server (D1) & akun pengguna — hanya setelah workflow manual terbukti berguna.
+- Menghubungkan workspace ke MCP worker (`mcp-worker/`) dan menguji dengan satu host MCP.
+- Pilot dengan satu produk affiliate nyata (Phase 4 roadmap).
+- Tailwind via CDN → build Tailwind untuk produksi.
 
 ## Product direction
 The product direction is now:
@@ -26,7 +84,7 @@ Initial use case: **affiliate content**, expandable to education, product market
 References are for learning patterns, not copying protected assets. Confirm licences and actual tool access before using external services.
 
 ## Try the browser prototype
-- [Open Kuralivo Prompt Studio](workspace.html) — browser-only prompt builder. It does not call a model or save data to a server.
+- [Open Kuralivo Prompt Studio (legacy)](public/static/legacy/prompt-studio.html) — browser-only prompt builder. It does not call a model or save data to a server.
 
 ## Remote MCP worker
 - [MCP Worker implementation and setup](mcp-worker/README.md)
