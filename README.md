@@ -11,8 +11,12 @@ The product direction is now:
 
 Initial use case: **affiliate content**, expandable to education, product marketing, awareness, lead generation, retention, and other content types.
 
-## Research and design references
+## Master prompt and roadmap
+- [Master System Prompt](docs/MASTER_SYSTEM_PROMPT.md) — Kuralivo's role, workflow, evidence rules, tool-use policy, affiliate integrity, and output standards.
+- [Product Roadmap](docs/ROADMAP.md) — phased delivery with acceptance criteria and current-state limitations.
 - [Content Journey & Design Reference Research](docs/content-journey-research.md)
+
+## Research and design references
 - [GetLayers AI MCP](https://www.getlayers.ai/mcp) — reference for MCP-mediated design library and production workflows.
 - [Godly Design Inspiration](https://godly.design/)
 - [Landdding](https://landdding.com/)
