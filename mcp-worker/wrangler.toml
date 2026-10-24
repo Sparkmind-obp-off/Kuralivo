@@ -1,0 +1,6 @@
+name = "kuralivo-mcp"
+main = "src/index.ts"
+compatibility_date = "2026-10-24"
+
+[observability]
+enabled = true
